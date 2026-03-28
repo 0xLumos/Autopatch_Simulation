@@ -1,0 +1,3 @@
+FROM jenkins/jenkins:2.164.1-lts
+WORKDIR /app
+EXPOSE 8080

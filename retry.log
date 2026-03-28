@@ -1,0 +1,219 @@
+Using WORK_DIR: /root/autopatch_experiment
+  Results:    /root/autopatch_experiment/results_v3
+  Dockerfiles: /root/autopatch_experiment/dockerfiles
+  Runner:     NOT FOUND
+  Figures:    /root/autopatch_experiment/figures_v4
+
+=== Files in WORK_DIR ===
+total 256
+drwxr-xr-x  5 root root  4096 Mar 28 05:57 .
+drwx------ 10 root root  4096 Mar 28 05:54 ..
+drwxr-xr-x  2 root root  4096 Mar 28 03:58 dockerfiles
+-rw-r--r--  1 root root 81020 Mar 28 05:37 experiment_output.log
+drwxr-xr-x  2 root root  4096 Mar 28 03:56 figures_v3
+-rwxr-xr-x  1 root root 20829 Mar 28 05:56 fix.sh
+-rw-r--r--  1 root root  9899 Mar 28 03:58 gen_dockerfiles.py
+-rw-r--r--  1 root root   118 Mar 28 05:57 progress_v3.txt
+drwxr-xr-x  5 root root  4096 Mar 28 05:37 results_v3
+-rw-r--r--  1 root root   252 Mar 28 05:57 retry.log
+-rwxr-xr-x  1 root root 31738 Mar 28 03:58 run_exp.py
+-rwxr-xr-x  1 root root 63984 Mar 28 05:57 simulation.sh
+-rw-r--r--  1 root root  9983 Mar 28 05:37 stats.py
+
+=== Looking for results.json ===
+/root/autopatch_experiment/results_v3/results.csv
+/root/autopatch_experiment/results_v3/results.json
+
+=== Looking for runner python files ===
+/root/autopatch_experiment/gen_dockerfiles.py
+/root/autopatch_experiment/run_exp.py
+/root/autopatch_experiment/stats.py
+
+=== Looking for dockerfiles ===
+/root/autopatch_experiment/dockerfiles
+
+═══ 1/5: Free disk space ═══
+Total reclaimed space: 0B
+/dev/root        97G   11G   87G  11% /
+
+═══ 2/5: Fix results.json — remove rate-limited + buggy entries ═══
+  Before: 250, After: 250, Dropped: 0
+  Buggy images requeued: {'mongo-6.0', 'distroless-base', 'distroless-java', 'mongo-5.0', 'mongo-4.4'}
+  [✓] Results cleaned
+
+═══ 3/5: Patch runner.py with v4 fixes ═══
+  [!] No runner.py found — checking if it's embedded in shell script
+  Found main script: /root/autopatch_experiment/simulation.sh — patching inline Python
+  Total fixes applied: 0
+  [✓] Main script patched
+
+═══ 4/5: Re-running patched script ═══
+  This will skip already-completed images via crash recovery
+
+[0;36m═══ PHASE 1: Installing dependencies ═══[0m
+  [0;32m[✓][0m Core packages
+  [0;32m[✓][0m Docker: Docker version 29.3.1, build c2be9cc
+  [0;32m[✓][0m Trivy: Version: 0.69.3
+  [0;32m[✓][0m Trivy DB ready
+  [0;32m[✓][0m Cosign installed
+  [0;32m[✓][0m Copa buildkit container: buildx_buildkit_copabuildkit0
+Requirement already satisfied: scipy in /usr/local/lib/python3.10/dist-packages (1.15.3)
+Requirement already satisfied: matplotlib in /usr/local/lib/python3.10/dist-packages (3.10.8)
+Requirement already satisfied: numpy in /usr/local/lib/python3.10/dist-packages (2.2.6)
+Requirement already satisfied: seaborn in /usr/local/lib/python3.10/dist-packages (0.13.2)
+Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: kiwisolver>=1.3.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (1.5.0)
+Requirement already satisfied: packaging>=20.0 in /usr/lib/python3/dist-packages (from matplotlib) (21.3)
+Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (1.3.2)
+Requirement already satisfied: python-dateutil>=2.7 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: pillow>=8 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (12.1.1)
+Requirement already satisfied: pyparsing>=3 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (3.3.2)
+Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (4.62.1)
+Requirement already satisfied: pandas>=1.2 in /usr/local/lib/python3.10/dist-packages (from seaborn) (2.3.3)
+Requirement already satisfied: pytz>=2020.1 in /usr/lib/python3/dist-packages (from pandas>=1.2->seaborn) (2022.1)
+Requirement already satisfied: tzdata>=2022.7 in /usr/local/lib/python3.10/dist-packages (from pandas>=1.2->seaborn) (2025.3)
+Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
+  [0;32m[✓][0m Phase 1 complete
+
+[0;36m═══ PHASE 2: Generating Dockerfile dataset ═══[0m
+Generated 0 new Dockerfiles, total: 113
+  [0;32m[✓][0m Dataset ready: 113 Dockerfiles
+
+[0;36m═══ PHASE 3: Running 5-strategy experiment ═══[0m
+  [0;32m[✓][0m Experiment script written
+  [0;32m[+][0m Starting experiment at Sat Mar 28 05:57:52 UTC 2026...
+2026-03-28 05:57:52,846 [INFO] Crash recovery: 250 results from previous run
+2026-03-28 05:57:52,853 [INFO] Found 113 Dockerfiles
+2026-03-28 05:57:52,853 [INFO] 
+[1/113] ETA: ~0 min remaining
+2026-03-28 05:57:52,853 [INFO] 
+============================================================
+  Processing: adoptopenjdk-11
+============================================================
+2026-03-28 05:57:52,919 [INFO]   Building original: v3-adoptopenjdk-11-orig
+2026-03-28 05:58:02,078 [INFO]   Scanning original...
+2026-03-28 05:58:10,266 [INFO]   Baseline: 411 vulns (C=0, H=9, M=265, L=137)
+2026-03-28 05:58:10,494 [INFO]   OS family: ubuntu
+2026-03-28 05:58:11,507 [INFO] 
+[2/113] ETA: ~34 min remaining
+2026-03-28 05:58:11,508 [INFO] 
+============================================================
+  Processing: almalinux-8
+============================================================
+2026-03-28 05:58:11,569 [INFO]   Building original: v3-almalinux-8-orig
+2026-03-28 05:58:48,213 [INFO]   Scanning original...
+2026-03-28 05:59:04,297 [INFO]   Baseline: 18 vulns (C=0, H=0, M=18, L=0)
+2026-03-28 05:59:05,128 [INFO]   OS family: alma
+2026-03-28 05:59:08,390 [INFO] 
+[3/113] ETA: ~69 min remaining
+2026-03-28 05:59:08,390 [INFO] 
+============================================================
+  Processing: almalinux-9
+============================================================
+2026-03-28 05:59:08,444 [INFO]   Building original: v3-almalinux-9-orig
+2026-03-28 05:59:35,736 [WARNING]   ORIGINAL BUILD FAILED (RATE_LIMITED)
+2026-03-28 05:59:37,446 [INFO] 
+[4/113] ETA: ~63 min remaining
+2026-03-28 05:59:37,447 [INFO] 
+============================================================
+  Processing: alpine-3.12
+============================================================
+2026-03-28 05:59:37,528 [INFO]   Building original: v3-alpine-3.12-orig
+2026-03-28 05:59:42,163 [INFO]   Scanning original...
+2026-03-28 05:59:43,312 [INFO]   Baseline: 1 vulns (C=1, H=0, M=0, L=0)
+2026-03-28 05:59:43,665 [INFO]   OS family: alpine
+2026-03-28 05:59:45,378 [INFO] 
+[5/113] ETA: ~51 min remaining
+2026-03-28 05:59:45,378 [INFO] 
+============================================================
+  Processing: alpine-3.14
+============================================================
+2026-03-28 05:59:45,381 [INFO]   Building original: v3-alpine-3.14-orig
+2026-03-28 05:59:50,357 [INFO]   Scanning original...
+2026-03-28 05:59:51,633 [INFO]   Baseline: 0 vulns (C=0, H=0, M=0, L=0)
+2026-03-28 05:59:51,948 [INFO]   OS family: alpine
+2026-03-28 05:59:51,948 [INFO]   [B] Naive :latest
+2026-03-28 06:00:12,757 [INFO]     Naive: 0→2 (-100.0%)
+2026-03-28 06:00:12,758 [INFO]   [C] Copacetic
+2026-03-28 06:00:16,174 [WARNING]   Trivy scan FAILED for v3-alpine-3.14-copa: 2026-03-28T06:00:15Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T06:00:16Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 06:00:16,174 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 06:00:16,206 [INFO]   [D] Docker Scout
+2026-03-28 06:00:24,384 [INFO]     Scout: no recommendation
+2026-03-28 06:00:24,385 [INFO]   [E] AutoPatch
+2026-03-28 06:00:24,385 [INFO]     Mapping: alpine:3.14 → alpine:3.21
+2026-03-28 06:00:30,583 [INFO]     AutoPatch: 0→0 (0.0%), accept=False
+2026-03-28 06:00:32,711 [INFO] 
+[6/113] ETA: ~57 min remaining
+2026-03-28 06:00:32,751 [INFO] 
+============================================================
+  Processing: alpine-3.16
+============================================================
+2026-03-28 06:00:32,777 [INFO]   Building original: v3-alpine-3.16-orig
+2026-03-28 06:00:36,478 [INFO]   Scanning original...
+2026-03-28 06:00:37,386 [INFO]   Baseline: 4 vulns (C=0, H=2, M=2, L=0)
+2026-03-28 06:00:37,619 [INFO]   OS family: alpine
+2026-03-28 06:00:38,609 [INFO] 
+[7/113] ETA: ~49 min remaining
+2026-03-28 06:00:38,609 [INFO] 
+============================================================
+  Processing: alpine-3.18
+============================================================
+2026-03-28 06:00:38,610 [INFO]   Building original: v3-alpine-3.18-orig
+2026-03-28 06:00:43,412 [INFO]   Scanning original...
+2026-03-28 06:00:44,795 [INFO]   Baseline: 0 vulns (C=0, H=0, M=0, L=0)
+2026-03-28 06:00:44,984 [INFO]   OS family: alpine
+2026-03-28 06:00:44,985 [INFO]   [B] Naive :latest
+2026-03-28 06:00:50,250 [INFO]     Naive: 0→2 (-100.0%)
+2026-03-28 06:00:50,250 [INFO]   [C] Copacetic
+2026-03-28 06:00:51,911 [WARNING]   Trivy scan FAILED for v3-alpine-3.18-copa: 2026-03-28T06:00:51Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T06:00:51Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 06:00:51,912 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 06:00:51,941 [INFO]   [D] Docker Scout
+2026-03-28 06:00:59,495 [INFO]     Scout: no recommendation
+2026-03-28 06:00:59,495 [INFO]   [E] AutoPatch
+2026-03-28 06:00:59,495 [INFO]     Mapping: alpine:3.18 → alpine:3.21
+2026-03-28 06:01:05,628 [INFO]     AutoPatch: 0→0 (0.0%), accept=False
+2026-03-28 06:01:06,635 [INFO] 
+[8/113] ETA: ~48 min remaining
+2026-03-28 06:01:06,635 [INFO] 
+============================================================
+  Processing: caddy-2.4
+============================================================
+2026-03-28 06:01:06,666 [INFO]   Building original: v3-caddy-2.4-orig
+2026-03-28 06:01:07,367 [WARNING]   ORIGINAL BUILD FAILED (IMAGE_NOT_FOUND)
+2026-03-28 06:01:08,309 [INFO] 
+[9/113] ETA: ~42 min remaining
+2026-03-28 06:01:08,309 [INFO] 
+============================================================
+  Processing: centos-7
+============================================================
+2026-03-28 06:01:08,337 [INFO]   Building original: v3-centos-7-orig
+2026-03-28 06:01:19,340 [WARNING]   ORIGINAL BUILD FAILED (NETWORK)
+2026-03-28 06:01:20,267 [INFO] 
+[10/113] ETA: ~39 min remaining
+2026-03-28 06:01:20,267 [INFO] 
+============================================================
+  Processing: consul-1.14
+============================================================
+2026-03-28 06:01:20,288 [INFO]   Building original: v3-consul-1.14-orig
+2026-03-28 06:01:26,742 [INFO]   Scanning original...
+2026-03-28 06:01:32,022 [INFO]   Baseline: 164 vulns (C=7, H=35, M=111, L=11)
+2026-03-28 06:01:32,257 [INFO]   OS family: alpine
+2026-03-28 06:01:34,284 [INFO] 
+[11/113] ETA: ~38 min remaining
+2026-03-28 06:01:34,285 [INFO] 
+============================================================
+  Processing: debian-bookworm
+============================================================
+2026-03-28 06:01:34,311 [INFO]   Building original: v3-debian-bookworm-orig
+2026-03-28 06:01:52,315 [INFO]   Scanning original...
+2026-03-28 06:01:56,152 [INFO]   Baseline: 149 vulns (C=1, H=4, M=25, L=117)
+2026-03-28 06:01:56,369 [INFO]   OS family: debian
+2026-03-28 06:01:57,385 [INFO] 
+[12/113] ETA: ~37 min remaining
+2026-03-28 06:01:57,385 [INFO] 
+============================================================
+  Processing: debian-bullseye
+============================================================
+2026-03-28 06:01:57,444 [INFO]   Building original: v3-debian-bullseye-orig

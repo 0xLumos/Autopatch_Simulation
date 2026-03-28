@@ -1,0 +1,8 @@
+FROM golang:1.18 AS builder
+WORKDIR /app
+RUN go version
+ 
+FROM alpine:3.14
+WORKDIR /app
+COPY --from=builder /usr/local/go/bin/go /usr/local/go/bin/go
+CMD ["echo", "hello"]

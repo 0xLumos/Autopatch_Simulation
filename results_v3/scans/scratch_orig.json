@@ -1,0 +1,36 @@
+{
+  "SchemaVersion": 2,
+  "Trivy": {
+    "Version": "0.69.3"
+  },
+  "ReportID": "019d32ef-1d8f-7a3f-8050-becbe21c14fd",
+  "CreatedAt": "2026-03-28T05:33:44.719676139Z",
+  "ArtifactID": "sha256:459f821cb3d5a132aad460856454b24ee5d69792ffd90ab2928690ecc495892d",
+  "ArtifactName": "v3-scratch-orig",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "ImageID": "sha256:3a58ad119f0dae830e39299dd9d94100e3a764665fba8810f9a873d3ac716aec",
+    "RepoTags": [
+      "v3-scratch-orig:latest"
+    ],
+    "RepoDigests": [
+      "v3-scratch-orig@sha256:3a58ad119f0dae830e39299dd9d94100e3a764665fba8810f9a873d3ac716aec"
+    ],
+    "Reference": "v3-scratch-orig:latest",
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "0001-01-01T00:00:00Z",
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": null
+      },
+      "config": {
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+        ],
+        "WorkingDir": "/"
+      }
+    }
+  }
+}

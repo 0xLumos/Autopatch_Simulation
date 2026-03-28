@@ -1,0 +1,7 @@
+FROM maven:3.8-openjdk-11 AS builder
+WORKDIR /app
+RUN mvn --version
+ 
+FROM openjdk:11-jre-slim
+WORKDIR /app
+CMD ["java", "-version"]

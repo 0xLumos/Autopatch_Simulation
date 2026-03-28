@@ -1,0 +1,59 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:bcfae4fc-5382-4674-888f-304f74dbf1f0",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-28T05:33:44+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "pkg:oci/v3-scratch-orig@sha256%3A3a58ad119f0dae830e39299dd9d94100e3a764665fba8810f9a873d3ac716aec?arch=amd64&repository_url=index.docker.io%2Flibrary%2Fv3-scratch-orig",
+      "type": "container",
+      "name": "v3-scratch-orig",
+      "purl": "pkg:oci/v3-scratch-orig@sha256%3A3a58ad119f0dae830e39299dd9d94100e3a764665fba8810f9a873d3ac716aec?arch=amd64&repository_url=index.docker.io%2Flibrary%2Fv3-scratch-orig",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:ImageID",
+          "value": "sha256:3a58ad119f0dae830e39299dd9d94100e3a764665fba8810f9a873d3ac716aec"
+        },
+        {
+          "name": "aquasecurity:trivy:Reference",
+          "value": "v3-scratch-orig:latest"
+        },
+        {
+          "name": "aquasecurity:trivy:RepoDigest",
+          "value": "v3-scratch-orig@sha256:3a58ad119f0dae830e39299dd9d94100e3a764665fba8810f9a873d3ac716aec"
+        },
+        {
+          "name": "aquasecurity:trivy:RepoTag",
+          "value": "v3-scratch-orig:latest"
+        },
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:oci/v3-scratch-orig@sha256%3A3a58ad119f0dae830e39299dd9d94100e3a764665fba8810f9a873d3ac716aec?arch=amd64&repository_url=index.docker.io%2Flibrary%2Fv3-scratch-orig",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

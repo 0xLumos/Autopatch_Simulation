@@ -1,0 +1,3 @@
+FROM gitlab/gitlab-runner:alpine
+WORKDIR /app
+CMD ["gitlab-runner", "--version"]

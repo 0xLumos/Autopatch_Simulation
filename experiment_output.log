@@ -1,0 +1,1596 @@
+2026-03-28 03:58:27,675 [INFO] Found 113 Dockerfiles
+2026-03-28 03:58:27,675 [INFO] 
+[1/113] ETA: ~0 min remaining
+2026-03-28 03:58:27,675 [INFO] 
+============================================================
+  Processing: adoptopenjdk-11
+============================================================
+2026-03-28 03:58:27,675 [INFO]   Building original: v3-adoptopenjdk-11-orig
+2026-03-28 03:58:42,437 [INFO]   Scanning original...
+2026-03-28 03:59:18,492 [INFO]   Baseline: 411 vulns (C=0, H=9, M=265, L=137)
+2026-03-28 03:59:18,905 [INFO]   OS family: ubuntu
+2026-03-28 03:59:18,906 [INFO]   [B] Naive :latest
+2026-03-28 03:59:57,931 [INFO]     Naive: 411→411 (0.0%)
+2026-03-28 03:59:57,931 [INFO]   [C] Copacetic
+2026-03-28 03:59:59,044 [INFO]     Copa: FAILED (time="2026-03-28T03:59:57Z" level=info msg="Starting in single image patching mo)
+2026-03-28 03:59:59,044 [INFO]   [D] Docker Scout
+2026-03-28 03:59:59,825 [INFO]     Scout: no recommendation
+2026-03-28 03:59:59,825 [INFO]   [E] AutoPatch
+2026-03-28 03:59:59,825 [INFO]     Mapping: adoptopenjdk:11-jre-hotspot → eclipse-temurin:11-jre-alpine
+2026-03-28 04:00:19,269 [INFO]     AutoPatch: 411→8 (98.1%), accept=False
+2026-03-28 04:00:19,642 [INFO] 
+[2/113] ETA: ~209 min remaining
+2026-03-28 04:00:19,643 [INFO] 
+============================================================
+  Processing: almalinux-8
+============================================================
+2026-03-28 04:00:19,643 [INFO]   Building original: v3-almalinux-8-orig
+2026-03-28 04:00:57,192 [INFO]   Scanning original...
+2026-03-28 04:01:04,458 [INFO]   Baseline: 18 vulns (C=0, H=0, M=18, L=0)
+2026-03-28 04:01:04,840 [INFO]   OS family: alma
+2026-03-28 04:01:04,840 [INFO]   [B] Naive :latest
+2026-03-28 04:01:26,909 [INFO]     Naive: 18→18 (0.0%)
+2026-03-28 04:01:26,909 [INFO]   [C] Copacetic
+2026-03-28 04:01:27,143 [INFO]     Copa: FAILED (time="2026-03-28T04:01:26Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:01:27,143 [INFO]   [D] Docker Scout
+2026-03-28 04:01:27,895 [INFO]     Scout: no recommendation
+2026-03-28 04:01:27,895 [INFO]   [E] AutoPatch
+2026-03-28 04:01:27,895 [INFO]     Mapping: almalinux:8 → almalinux:9-minimal
+2026-03-28 04:01:32,843 [INFO]     AutoPatch: 18→0 (0.0%), accept=False
+2026-03-28 04:01:33,144 [INFO] 
+[3/113] ETA: ~171 min remaining
+2026-03-28 04:01:33,145 [INFO] 
+============================================================
+  Processing: almalinux-9
+============================================================
+2026-03-28 04:01:33,145 [INFO]   Building original: v3-almalinux-9-orig
+2026-03-28 04:01:52,127 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 04:01:52,397 [INFO] 
+[4/113] ETA: ~125 min remaining
+2026-03-28 04:01:52,398 [INFO] 
+============================================================
+  Processing: alpine-3.12
+============================================================
+2026-03-28 04:01:52,398 [INFO]   Building original: v3-alpine-3.12-orig
+2026-03-28 04:01:56,057 [INFO]   Scanning original...
+2026-03-28 04:01:56,808 [INFO]   Baseline: 1 vulns (C=1, H=0, M=0, L=0)
+2026-03-28 04:01:57,074 [INFO]   OS family: alpine
+2026-03-28 04:01:57,075 [INFO]   [B] Naive :latest
+2026-03-28 04:02:02,210 [INFO]     Naive: 1→2 (-100.0%)
+2026-03-28 04:02:02,210 [INFO]   [C] Copacetic
+2026-03-28 04:02:02,442 [INFO]     Copa: FAILED (time="2026-03-28T04:02:02Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:02:02,442 [INFO]   [D] Docker Scout
+2026-03-28 04:02:03,110 [INFO]     Scout: no recommendation
+2026-03-28 04:02:03,110 [INFO]   [E] AutoPatch
+2026-03-28 04:02:03,111 [INFO]     Mapping: alpine:3.12 → alpine:3.21
+2026-03-28 04:02:08,134 [INFO]     AutoPatch: 1→0 (100.0%), accept=True
+2026-03-28 04:02:08,357 [INFO] 
+[5/113] ETA: ~100 min remaining
+2026-03-28 04:02:08,357 [INFO] 
+============================================================
+  Processing: alpine-3.14
+============================================================
+2026-03-28 04:02:08,357 [INFO]   Building original: v3-alpine-3.14-orig
+2026-03-28 04:02:11,944 [INFO]   Scanning original...
+2026-03-28 04:02:12,877 [INFO]   Baseline: 0 vulns (C=0, H=0, M=0, L=0)
+2026-03-28 04:02:13,123 [INFO]   OS family: alpine
+2026-03-28 04:02:13,123 [INFO]   [B] Naive :latest
+2026-03-28 04:02:17,195 [INFO]     Naive: 0→2 (-100.0%)
+2026-03-28 04:02:17,195 [INFO]   [C] Copacetic
+2026-03-28 04:02:23,687 [WARNING]   Trivy scan FAILED for v3-alpine-3.14-copa: 2026-03-28T04:02:23Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T04:02:23Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 04:02:23,688 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 04:02:23,716 [INFO]   [D] Docker Scout
+2026-03-28 04:02:24,408 [INFO]     Scout: no recommendation
+2026-03-28 04:02:24,408 [INFO]   [E] AutoPatch
+2026-03-28 04:02:24,408 [INFO]     Mapping: alpine:3.14 → alpine:3.21
+2026-03-28 04:02:28,705 [INFO]     AutoPatch: 0→0 (0.0%), accept=False
+2026-03-28 04:02:31,351 [INFO] 
+[6/113] ETA: ~87 min remaining
+2026-03-28 04:02:31,351 [INFO] 
+============================================================
+  Processing: alpine-3.16
+============================================================
+2026-03-28 04:02:31,352 [INFO]   Building original: v3-alpine-3.16-orig
+2026-03-28 04:02:35,403 [INFO]   Scanning original...
+2026-03-28 04:02:36,299 [INFO]   Baseline: 4 vulns (C=0, H=2, M=2, L=0)
+2026-03-28 04:02:36,549 [INFO]   OS family: alpine
+2026-03-28 04:02:36,549 [INFO]   [B] Naive :latest
+2026-03-28 04:02:41,398 [INFO]     Naive: 4→2 (50.0%)
+2026-03-28 04:02:41,399 [INFO]   [C] Copacetic
+2026-03-28 04:02:41,590 [INFO]     Copa: FAILED (time="2026-03-28T04:02:41Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:02:41,590 [INFO]   [D] Docker Scout
+2026-03-28 04:02:42,342 [INFO]     Scout: no recommendation
+2026-03-28 04:02:42,342 [INFO]   [E] AutoPatch
+2026-03-28 04:02:42,342 [INFO]     Mapping: alpine:3.16 → alpine:3.21
+2026-03-28 04:02:47,562 [INFO]     AutoPatch: 4→0 (100.0%), accept=True
+2026-03-28 04:02:47,762 [INFO] 
+[7/113] ETA: ~77 min remaining
+2026-03-28 04:02:47,762 [INFO] 
+============================================================
+  Processing: alpine-3.18
+============================================================
+2026-03-28 04:02:47,762 [INFO]   Building original: v3-alpine-3.18-orig
+2026-03-28 04:02:52,165 [INFO]   Scanning original...
+2026-03-28 04:02:53,199 [INFO]   Baseline: 0 vulns (C=0, H=0, M=0, L=0)
+2026-03-28 04:02:53,424 [INFO]   OS family: alpine
+2026-03-28 04:02:53,424 [INFO]   [B] Naive :latest
+2026-03-28 04:02:58,223 [INFO]     Naive: 0→2 (-100.0%)
+2026-03-28 04:02:58,224 [INFO]   [C] Copacetic
+2026-03-28 04:02:59,623 [WARNING]   Trivy scan FAILED for v3-alpine-3.18-copa: 2026-03-28T04:02:59Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T04:02:59Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 04:02:59,624 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 04:02:59,652 [INFO]   [D] Docker Scout
+2026-03-28 04:03:00,358 [INFO]     Scout: no recommendation
+2026-03-28 04:03:00,358 [INFO]   [E] AutoPatch
+2026-03-28 04:03:00,358 [INFO]     Mapping: alpine:3.18 → alpine:3.21
+2026-03-28 04:03:05,182 [INFO]     AutoPatch: 0→0 (0.0%), accept=False
+2026-03-28 04:03:05,418 [INFO] 
+[8/113] ETA: ~70 min remaining
+2026-03-28 04:03:05,419 [INFO] 
+============================================================
+  Processing: caddy-2.4
+============================================================
+2026-03-28 04:03:05,419 [INFO]   Building original: v3-caddy-2.4-orig
+2026-03-28 04:03:06,122 [WARNING]   ORIGINAL BUILD FAILED (IMAGE_NOT_FOUND)
+2026-03-28 04:03:06,284 [INFO] 
+[9/113] ETA: ~60 min remaining
+2026-03-28 04:03:06,284 [INFO] 
+============================================================
+  Processing: centos-7
+============================================================
+2026-03-28 04:03:06,284 [INFO]   Building original: v3-centos-7-orig
+2026-03-28 04:03:15,528 [WARNING]   ORIGINAL BUILD FAILED (NETWORK)
+2026-03-28 04:03:15,705 [INFO] 
+[10/113] ETA: ~55 min remaining
+2026-03-28 04:03:15,705 [INFO] 
+============================================================
+  Processing: consul-1.14
+============================================================
+2026-03-28 04:03:15,706 [INFO]   Building original: v3-consul-1.14-orig
+2026-03-28 04:03:21,815 [INFO]   Scanning original...
+2026-03-28 04:03:27,322 [INFO]   Baseline: 164 vulns (C=7, H=35, M=111, L=11)
+2026-03-28 04:03:27,544 [INFO]   OS family: alpine
+2026-03-28 04:03:27,544 [INFO]   [B] Naive :latest
+2026-03-28 04:03:40,496 [INFO]     Naive: 164→0 (100.0%)
+2026-03-28 04:03:40,496 [INFO]   [C] Copacetic
+2026-03-28 04:03:40,798 [INFO]     Copa: FAILED (time="2026-03-28T04:03:40Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:03:40,798 [INFO]   [D] Docker Scout
+2026-03-28 04:03:41,603 [INFO]     Scout: no recommendation
+2026-03-28 04:03:41,603 [INFO]   [E] AutoPatch
+2026-03-28 04:03:41,603 [INFO]     Mapping: hashicorp/consul:1.14 → hashicorp/consul:latest
+2026-03-28 04:03:43,013 [INFO]     AutoPatch: 164→0 (100.0%), accept=True
+2026-03-28 04:03:44,535 [INFO] 
+[11/113] ETA: ~54 min remaining
+2026-03-28 04:03:44,535 [INFO] 
+============================================================
+  Processing: debian-bookworm
+============================================================
+2026-03-28 04:03:44,535 [INFO]   Building original: v3-debian-bookworm-orig
+2026-03-28 04:04:04,092 [INFO]   Scanning original...
+2026-03-28 04:04:09,574 [INFO]   Baseline: 149 vulns (C=1, H=4, M=25, L=117)
+2026-03-28 04:04:09,811 [INFO]   OS family: debian
+2026-03-28 04:04:09,811 [INFO]   [B] Naive :latest
+2026-03-28 04:04:35,673 [INFO]     Naive: 149→126 (15.4%)
+2026-03-28 04:04:35,673 [INFO]   [C] Copacetic
+2026-03-28 04:04:39,888 [WARNING]   Trivy scan FAILED for v3-debian-bookworm-copa: 2026-03-28T04:04:39Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T04:04:39Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 04:04:39,889 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 04:04:39,914 [INFO]   [D] Docker Scout
+2026-03-28 04:04:40,638 [INFO]     Scout: no recommendation
+2026-03-28 04:04:40,638 [INFO]   [E] AutoPatch
+2026-03-28 04:04:40,638 [INFO]     Mapping: debian:bookworm → debian:bookworm-slim
+2026-03-28 04:04:59,580 [INFO]     AutoPatch: 149→149 (0.0%), accept=False
+2026-03-28 04:04:59,824 [INFO] 
+[12/113] ETA: ~60 min remaining
+2026-03-28 04:04:59,824 [INFO] 
+============================================================
+  Processing: debian-bullseye
+============================================================
+2026-03-28 04:04:59,824 [INFO]   Building original: v3-debian-bullseye-orig
+2026-03-28 04:05:14,840 [INFO]   Scanning original...
+2026-03-28 04:05:19,588 [INFO]   Baseline: 178 vulns (C=4, H=11, M=36, L=126)
+2026-03-28 04:05:19,778 [INFO]   OS family: debian
+2026-03-28 04:05:19,778 [INFO]   [B] Naive :latest
+2026-03-28 04:05:21,642 [INFO]     Naive: 178→126 (29.2%)
+2026-03-28 04:05:21,642 [INFO]   [C] Copacetic
+2026-03-28 04:05:25,853 [WARNING]   Trivy scan FAILED for v3-debian-bullseye-copa: 2026-03-28T04:05:25Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T04:05:25Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 04:05:25,854 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 04:05:25,881 [INFO]   [D] Docker Scout
+2026-03-28 04:05:26,606 [INFO]     Scout: no recommendation
+2026-03-28 04:05:26,606 [INFO]   [E] AutoPatch
+2026-03-28 04:05:26,606 [INFO]     Mapping: debian:bullseye → debian:bookworm-slim
+2026-03-28 04:05:27,960 [INFO]     AutoPatch: 178→149 (16.3%), accept=False
+2026-03-28 04:05:28,172 [INFO] 
+[13/113] ETA: ~58 min remaining
+2026-03-28 04:05:28,172 [INFO] 
+============================================================
+  Processing: debian-buster
+============================================================
+2026-03-28 04:05:28,172 [INFO]   Building original: v3-debian-buster-orig
+2026-03-28 04:05:33,965 [WARNING]   ORIGINAL BUILD FAILED (IMAGE_NOT_FOUND)
+2026-03-28 04:05:34,117 [INFO] 
+[14/113] ETA: ~54 min remaining
+2026-03-28 04:05:34,117 [INFO] 
+============================================================
+  Processing: debian-stretch
+============================================================
+2026-03-28 04:05:34,118 [INFO]   Building original: v3-debian-stretch-orig
+2026-03-28 04:05:41,382 [WARNING]   ORIGINAL BUILD FAILED (IMAGE_NOT_FOUND)
+2026-03-28 04:05:41,572 [INFO] 
+[15/113] ETA: ~51 min remaining
+2026-03-28 04:05:41,572 [INFO] 
+============================================================
+  Processing: distroless-base
+============================================================
+2026-03-28 04:05:41,573 [INFO]   Building original: v3-distroless-base-orig
+2026-03-28 04:05:44,726 [INFO]   Scanning original...
+2026-03-28 04:05:46,013 [INFO]   Baseline: 51 vulns (C=0, H=6, M=28, L=13)
+2026-03-28 04:05:46,231 [INFO]   OS family: debian
+2026-03-28 04:05:46,231 [INFO]   [B] Naive :latest
+2026-03-28 04:05:47,422 [INFO]     Naive: 51→51 (0.0%)
+2026-03-28 04:05:47,422 [INFO]   [C] Copacetic
+2026-03-28 04:05:47,630 [INFO]     Copa: FAILED (time="2026-03-28T04:05:47Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:05:47,630 [INFO]   [D] Docker Scout
+2026-03-28 04:05:48,373 [INFO]     Scout: no recommendation
+2026-03-28 04:05:48,374 [INFO]   [E] AutoPatch
+2026-03-28 04:05:48,374 [INFO]     Mapping: gcr.io/distroless/base-debian11 → debian:bookworm-slim
+2026-03-28 04:05:49,452 [INFO]     AutoPatch: 51→95 (-86.3%), accept=False
+2026-03-28 04:05:51,478 [INFO] 
+[16/113] ETA: ~48 min remaining
+2026-03-28 04:05:51,478 [INFO] 
+============================================================
+  Processing: distroless-java
+============================================================
+2026-03-28 04:05:51,478 [INFO]   Building original: v3-distroless-java-orig
+2026-03-28 04:05:59,585 [INFO]   Scanning original...
+2026-03-28 04:06:07,139 [INFO]   Baseline: 97 vulns (C=4, H=22, M=31, L=36)
+2026-03-28 04:06:07,496 [INFO]   OS family: debian
+2026-03-28 04:06:07,496 [INFO]   [B] Naive :latest
+2026-03-28 04:06:08,982 [INFO]     Naive: 97→97 (0.0%)
+2026-03-28 04:06:08,983 [INFO]   [C] Copacetic
+2026-03-28 04:06:09,191 [INFO]     Copa: FAILED (time="2026-03-28T04:06:08Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:06:09,192 [INFO]   [D] Docker Scout
+2026-03-28 04:06:09,861 [INFO]     Scout: no recommendation
+2026-03-28 04:06:09,862 [INFO]   [E] AutoPatch
+2026-03-28 04:06:09,862 [INFO]     Mapping: gcr.io/distroless/java17-debian11 → debian:bookworm-slim
+2026-03-28 04:06:13,195 [INFO]     AutoPatch: 97→95 (2.1%), accept=False
+2026-03-28 04:06:13,386 [INFO] 
+[17/113] ETA: ~47 min remaining
+2026-03-28 04:06:13,387 [INFO] 
+============================================================
+  Processing: drupal-10
+============================================================
+2026-03-28 04:06:13,387 [INFO]   Building original: v3-drupal-10-orig
+2026-03-28 04:06:40,344 [INFO]   Scanning original...
+2026-03-28 04:06:57,454 [INFO]   Baseline: 839 vulns (C=0, H=39, M=162, L=630)
+2026-03-28 04:06:57,829 [INFO]   OS family: debian
+2026-03-28 04:06:57,829 [INFO]   [B] Naive :latest
+2026-03-28 04:07:21,613 [INFO]     Naive: 839→860 (-2.5%)
+2026-03-28 04:07:21,613 [INFO]   [C] Copacetic
+2026-03-28 04:07:21,837 [INFO]     Copa: FAILED (time="2026-03-28T04:07:21Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:07:21,837 [INFO]   [D] Docker Scout
+2026-03-28 04:07:22,569 [INFO]     Scout: no recommendation
+2026-03-28 04:07:22,569 [INFO]   [E] AutoPatch
+2026-03-28 04:07:22,570 [INFO]     Mapping: drupal:10 → drupal:11-php8.3-apache
+2026-03-28 04:08:05,391 [INFO]     AutoPatch: 839→1558 (-85.7%), accept=False
+2026-03-28 04:08:05,609 [INFO] 
+[18/113] ETA: ~54 min remaining
+2026-03-28 04:08:05,610 [INFO] 
+============================================================
+  Processing: drupal-9
+============================================================
+2026-03-28 04:08:05,610 [INFO]   Building original: v3-drupal-9-orig
+2026-03-28 04:08:30,819 [INFO]   Scanning original...
+2026-03-28 04:08:48,897 [INFO]   Baseline: 5457 vulns (C=28, H=1232, M=3430, L=743)
+2026-03-28 04:08:49,233 [INFO]   OS family: debian
+2026-03-28 04:08:49,233 [INFO]   [B] Naive :latest
+2026-03-28 04:08:51,120 [INFO]     Naive: 5457→860 (84.2%)
+2026-03-28 04:08:51,120 [INFO]   [C] Copacetic
+2026-03-28 04:08:51,844 [INFO]     Copa: FAILED (time="2026-03-28T04:08:51Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:08:51,844 [INFO]   [D] Docker Scout
+2026-03-28 04:08:52,592 [INFO]     Scout: no recommendation
+2026-03-28 04:08:52,592 [INFO]   [E] AutoPatch
+2026-03-28 04:08:52,592 [INFO]     Mapping: drupal:9 → drupal:11-php8.3-apache
+2026-03-28 04:08:54,614 [INFO]     AutoPatch: 5457→1558 (71.4%), accept=False
+2026-03-28 04:08:54,964 [INFO] 
+[19/113] ETA: ~55 min remaining
+2026-03-28 04:08:54,964 [INFO] 
+============================================================
+  Processing: eclipse-temurin-11
+============================================================
+2026-03-28 04:08:54,965 [INFO]   Building original: v3-eclipse-temurin-11-orig
+2026-03-28 04:09:07,301 [INFO]   Scanning original...
+2026-03-28 04:09:21,217 [INFO]   Baseline: 29 vulns (C=0, H=0, M=16, L=13)
+2026-03-28 04:09:21,437 [INFO]   OS family: ubuntu
+2026-03-28 04:09:21,437 [INFO]   [B] Naive :latest
+2026-03-28 04:09:40,652 [INFO]     Naive: 29→36 (-24.1%)
+2026-03-28 04:09:40,653 [INFO]   [C] Copacetic
+2026-03-28 04:10:01,746 [WARNING]   Trivy scan FAILED for v3-eclipse-temurin-11-copa: 2026-03-28T04:10:01Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T04:10:01Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 04:10:01,749 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 04:10:01,801 [INFO]   [D] Docker Scout
+2026-03-28 04:10:03,099 [INFO]     Scout: no recommendation
+2026-03-28 04:10:03,099 [INFO]   [E] AutoPatch
+2026-03-28 04:10:03,100 [INFO]     Mapping: eclipse-temurin:11 → eclipse-temurin:11-jre-alpine
+2026-03-28 04:10:30,228 [INFO]     AutoPatch: 29→8 (72.4%), accept=False
+2026-03-28 04:10:30,604 [INFO] 
+[20/113] ETA: ~59 min remaining
+2026-03-28 04:10:30,605 [INFO] 
+============================================================
+  Processing: eclipse-temurin-17
+============================================================
+2026-03-28 04:10:30,605 [INFO]   Building original: v3-eclipse-temurin-17-orig
+2026-03-28 04:10:42,103 [INFO]   Scanning original...
+2026-03-28 04:10:56,657 [INFO]   Baseline: 53 vulns (C=0, H=0, M=24, L=29)
+2026-03-28 04:10:56,881 [INFO]   OS family: ubuntu
+2026-03-28 04:10:56,881 [INFO]   [B] Naive :latest
+2026-03-28 04:10:58,042 [INFO]     Naive: 53→36 (32.1%)
+2026-03-28 04:10:58,042 [INFO]   [C] Copacetic
+2026-03-28 04:11:11,757 [WARNING]   Trivy scan FAILED for v3-eclipse-temurin-17-copa: 2026-03-28T04:11:11Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T04:11:11Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 04:11:11,758 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 04:11:11,783 [INFO]   [D] Docker Scout
+2026-03-28 04:11:13,507 [INFO]     Scout: no recommendation
+2026-03-28 04:11:13,508 [INFO]   [E] AutoPatch
+2026-03-28 04:11:13,508 [INFO]     Mapping: eclipse-temurin:17 → eclipse-temurin:17-jre-alpine
+2026-03-28 04:11:24,734 [INFO]     AutoPatch: 53→8 (84.9%), accept=False
+2026-03-28 04:11:33,118 [INFO] 
+[21/113] ETA: ~60 min remaining
+2026-03-28 04:11:33,119 [INFO] 
+============================================================
+  Processing: eclipse-temurin-21
+============================================================
+2026-03-28 04:11:33,119 [INFO]   Building original: v3-eclipse-temurin-21-orig
+2026-03-28 04:11:46,025 [INFO]   Scanning original...
+2026-03-28 04:11:59,829 [INFO]   Baseline: 53 vulns (C=0, H=0, M=24, L=29)
+2026-03-28 04:12:00,056 [INFO]   OS family: ubuntu
+2026-03-28 04:12:00,056 [INFO]   [B] Naive :latest
+2026-03-28 04:12:15,963 [INFO]     Naive: 53→36 (32.1%)
+2026-03-28 04:12:15,963 [INFO]   [C] Copacetic
+2026-03-28 04:12:28,804 [WARNING]   Trivy scan FAILED for v3-eclipse-temurin-21-copa: 2026-03-28T04:12:28Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T04:12:28Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 04:12:28,804 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 04:12:28,830 [INFO]   [D] Docker Scout
+2026-03-28 04:12:29,898 [INFO]     Scout: no recommendation
+2026-03-28 04:12:29,898 [INFO]   [E] AutoPatch
+2026-03-28 04:12:29,898 [INFO]     Mapping: eclipse-temurin:21 → eclipse-temurin:21-jre-alpine
+2026-03-28 04:12:41,305 [INFO]     AutoPatch: 53→8 (84.9%), accept=False
+2026-03-28 04:12:41,611 [INFO] 
+[22/113] ETA: ~62 min remaining
+2026-03-28 04:12:41,611 [INFO] 
+============================================================
+  Processing: elasticsearch-7.17.0
+============================================================
+2026-03-28 04:12:41,611 [INFO]   Building original: v3-elasticsearch-7.17.0-orig
+2026-03-28 04:13:01,384 [INFO]   Scanning original...
+2026-03-28 04:13:30,186 [INFO]   Baseline: 827 vulns (C=0, H=40, M=535, L=252)
+2026-03-28 04:13:30,432 [INFO]   OS family: ubuntu
+2026-03-28 04:13:30,432 [INFO]   [B] Naive :latest
+2026-03-28 04:13:31,069 [INFO]     Naive: 827→0 (0.0%)
+2026-03-28 04:13:31,069 [INFO]   [C] Copacetic
+2026-03-28 04:13:31,311 [INFO]     Copa: FAILED (time="2026-03-28T04:13:31Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:13:31,311 [INFO]   [D] Docker Scout
+2026-03-28 04:13:32,254 [INFO]     Scout: no recommendation
+2026-03-28 04:13:32,255 [INFO]   [E] AutoPatch
+2026-03-28 04:13:32,255 [INFO]     Mapping: docker.elastic.co/elasticsearch/elasticsearch:7.17.0 → docker.elastic.co/elasticsearch/elasticsearch:8.17.0
+2026-03-28 04:15:02,656 [INFO]     AutoPatch: 827→90 (89.1%), accept=False
+2026-03-28 04:15:02,981 [INFO] 
+[23/113] ETA: ~68 min remaining
+2026-03-28 04:15:02,981 [INFO] 
+============================================================
+  Processing: ghost-5
+============================================================
+2026-03-28 04:15:02,981 [INFO]   Building original: v3-ghost-5-orig
+2026-03-28 04:15:44,023 [INFO]   Scanning original...
+2026-03-28 04:16:05,415 [INFO]   Baseline: 265 vulns (C=7, H=93, M=73, L=91)
+2026-03-28 04:16:05,861 [INFO]   OS family: debian
+2026-03-28 04:16:05,861 [INFO]   [B] Naive :latest
+2026-03-28 04:17:17,109 [INFO]     Naive: 265→227 (14.3%)
+2026-03-28 04:17:17,109 [INFO]   [C] Copacetic
+2026-03-28 04:17:17,356 [INFO]     Copa: FAILED (time="2026-03-28T04:17:17Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:17:17,356 [INFO]   [D] Docker Scout
+2026-03-28 04:17:18,538 [INFO]     Scout: no recommendation
+2026-03-28 04:17:18,538 [INFO]   [E] AutoPatch
+2026-03-28 04:17:18,538 [INFO]     Mapping: ghost:5 → ghost:5-alpine
+2026-03-28 04:18:12,052 [INFO]     AutoPatch: 265→170 (35.8%), accept=False
+2026-03-28 04:18:12,450 [INFO] 
+[24/113] ETA: ~77 min remaining
+2026-03-28 04:18:12,451 [INFO] 
+============================================================
+  Processing: gitlab-runner
+============================================================
+2026-03-28 04:18:12,451 [INFO]   Building original: v3-gitlab-runner-orig
+2026-03-28 04:18:36,108 [INFO]   Scanning original...
+2026-03-28 04:19:08,810 [INFO]   Baseline: 637 vulns (C=13, H=117, M=394, L=113)
+2026-03-28 04:19:09,045 [INFO]   OS family: ubuntu
+2026-03-28 04:19:09,046 [INFO]   [B] Naive :latest
+2026-03-28 04:19:27,186 [INFO]     Naive: 637→67 (89.5%)
+2026-03-28 04:19:27,187 [INFO]   [C] Copacetic
+2026-03-28 04:19:27,461 [INFO]     Copa: FAILED (time="2026-03-28T04:19:27Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:19:27,461 [INFO]   [D] Docker Scout
+2026-03-28 04:19:28,374 [INFO]     Scout: no recommendation
+2026-03-28 04:19:28,374 [INFO]   [E] AutoPatch
+2026-03-28 04:19:28,374 [INFO]     Mapping: gitlab/gitlab-runner:v15.0.0 → gitlab/gitlab-runner:alpine
+2026-03-28 04:19:39,772 [INFO]     AutoPatch: 637→19 (97.0%), accept=False
+2026-03-28 04:19:40,091 [INFO] 
+[25/113] ETA: ~78 min remaining
+2026-03-28 04:19:40,091 [INFO] 
+============================================================
+  Processing: golang-1.16
+============================================================
+2026-03-28 04:19:40,091 [INFO]   Building original: v3-golang-1.16-orig
+2026-03-28 04:20:19,339 [INFO]   Scanning original...
+2026-03-28 04:21:24,327 [INFO]   Baseline: 9024 vulns (C=141, H=2394, M=5459, L=1003)
+2026-03-28 04:21:24,589 [INFO]   OS family: debian
+2026-03-28 04:21:24,590 [INFO]   [B] Naive :latest
+2026-03-28 04:22:19,649 [INFO]     Naive: 9024→913 (89.9%)
+2026-03-28 04:22:19,650 [INFO]   [C] Copacetic
+2026-03-28 04:22:20,638 [INFO]     Copa: FAILED (time="2026-03-28T04:22:19Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:22:20,638 [INFO]   [D] Docker Scout
+2026-03-28 04:22:21,503 [INFO]     Scout: no recommendation
+2026-03-28 04:22:21,503 [INFO]   [E] AutoPatch
+2026-03-28 04:22:21,504 [INFO]     Mapping: golang:1.16 → golang:1.16-alpine
+2026-03-28 04:22:43,046 [INFO]     AutoPatch: 9024→1663 (81.6%), accept=False
+2026-03-28 04:22:56,705 [INFO] 
+[26/113] ETA: ~86 min remaining
+2026-03-28 04:22:56,705 [INFO] 
+============================================================
+  Processing: golang-1.16-alpine
+============================================================
+2026-03-28 04:22:56,732 [INFO]   Building original: v3-golang-1.16-alpine-orig
+2026-03-28 04:23:08,850 [INFO]   Scanning original...
+2026-03-28 04:23:15,286 [INFO]   Baseline: 1663 vulns (C=77, H=755, M=793, L=38)
+2026-03-28 04:23:15,482 [INFO]   OS family: alpine
+2026-03-28 04:23:15,483 [INFO]   [B] Naive :latest
+2026-03-28 04:24:00,790 [INFO]     Naive: 1663→913 (45.1%)
+2026-03-28 04:24:00,790 [INFO]   [C] Copacetic
+2026-03-28 04:24:01,083 [INFO]     Copa: FAILED (time="2026-03-28T04:24:00Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:24:01,083 [INFO]   [D] Docker Scout
+2026-03-28 04:24:01,940 [INFO]     Scout: no recommendation
+2026-03-28 04:24:01,940 [INFO]   [E] AutoPatch
+2026-03-28 04:24:01,940 [INFO]     Mapping: golang:1.16-alpine → golang:1.16-alpine
+2026-03-28 04:24:03,588 [INFO]     AutoPatch: 1663→1663 (0.0%), accept=False
+2026-03-28 04:24:04,044 [INFO] 
+[27/113] ETA: ~85 min remaining
+2026-03-28 04:24:04,044 [INFO] 
+============================================================
+  Processing: golang-1.18
+============================================================
+2026-03-28 04:24:04,067 [INFO]   Building original: v3-golang-1.18-orig
+2026-03-28 04:24:34,263 [INFO]   Scanning original...
+2026-03-28 04:25:00,012 [INFO]   Baseline: 7240 vulns (C=114, H=1717, M=4430, L=954)
+2026-03-28 04:25:00,275 [INFO]   OS family: debian
+2026-03-28 04:25:00,276 [INFO]   [B] Naive :latest
+2026-03-28 04:25:02,190 [INFO]     Naive: 7240→913 (87.4%)
+2026-03-28 04:25:02,190 [INFO]   [C] Copacetic
+2026-03-28 04:25:03,048 [INFO]     Copa: FAILED (time="2026-03-28T04:25:02Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:25:03,048 [INFO]   [D] Docker Scout
+2026-03-28 04:25:03,992 [INFO]     Scout: no recommendation
+2026-03-28 04:25:03,992 [INFO]   [E] AutoPatch
+2026-03-28 04:25:03,992 [INFO]     Mapping: golang:1.18 → golang:1.18-alpine
+2026-03-28 04:25:27,750 [INFO]     AutoPatch: 7240→1268 (82.5%), accept=False
+2026-03-28 04:25:28,319 [INFO] 
+[28/113] ETA: ~86 min remaining
+2026-03-28 04:25:28,319 [INFO] 
+============================================================
+  Processing: golang-1.19
+============================================================
+2026-03-28 04:25:28,360 [INFO]   Building original: v3-golang-1.19-orig
+2026-03-28 04:25:59,870 [INFO]   Scanning original...
+2026-03-28 04:26:33,179 [INFO]   Baseline: 6859 vulns (C=59, H=1550, M=4449, L=779)
+2026-03-28 04:26:33,452 [INFO]   OS family: debian
+2026-03-28 04:26:33,452 [INFO]   [B] Naive :latest
+2026-03-28 04:26:35,086 [INFO]     Naive: 6859→913 (86.7%)
+2026-03-28 04:26:35,087 [INFO]   [C] Copacetic
+2026-03-28 04:26:35,871 [INFO]     Copa: FAILED (time="2026-03-28T04:26:35Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:26:35,871 [INFO]   [D] Docker Scout
+2026-03-28 04:26:36,676 [INFO]     Scout: no recommendation
+2026-03-28 04:26:36,676 [INFO]   [E] AutoPatch
+2026-03-28 04:26:36,676 [INFO]     Mapping: golang:1.19 → golang:1.19-alpine
+2026-03-28 04:27:01,795 [INFO]     AutoPatch: 6859→931 (86.4%), accept=False
+2026-03-28 04:27:02,498 [INFO] 
+[29/113] ETA: ~86 min remaining
+2026-03-28 04:27:02,498 [INFO] 
+============================================================
+  Processing: golang-1.19-bullseye
+============================================================
+2026-03-28 04:27:02,548 [INFO]   Building original: v3-golang-1.19-bullseye-orig
+2026-03-28 04:27:32,758 [INFO]   Scanning original...
+2026-03-28 04:27:58,724 [INFO]   Baseline: 6018 vulns (C=68, H=1318, M=3699, L=908)
+2026-03-28 04:27:58,966 [INFO]   OS family: debian
+2026-03-28 04:27:58,966 [INFO]   [B] Naive :latest
+2026-03-28 04:28:00,577 [INFO]     Naive: 6018→913 (84.8%)
+2026-03-28 04:28:00,577 [INFO]   [C] Copacetic
+2026-03-28 04:28:01,289 [INFO]     Copa: FAILED (time="2026-03-28T04:28:00Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:28:01,289 [INFO]   [D] Docker Scout
+2026-03-28 04:28:02,152 [INFO]     Scout: no recommendation
+2026-03-28 04:28:02,152 [INFO]   [E] AutoPatch
+2026-03-28 04:28:02,152 [INFO]     Mapping: golang:1.19-bullseye → golang:1.19-alpine
+2026-03-28 04:28:03,586 [INFO]     AutoPatch: 6018→931 (84.5%), accept=False
+2026-03-28 04:28:04,327 [INFO] 
+[30/113] ETA: ~85 min remaining
+2026-03-28 04:28:04,328 [INFO] 
+============================================================
+  Processing: golang-1.20
+============================================================
+2026-03-28 04:28:04,351 [INFO]   Building original: v3-golang-1.20-orig
+2026-03-28 04:28:33,711 [INFO]   Scanning original...
+2026-03-28 04:28:57,554 [INFO]   Baseline: 6064 vulns (C=55, H=1311, M=3926, L=754)
+2026-03-28 04:28:57,843 [INFO]   OS family: debian
+2026-03-28 04:28:57,843 [INFO]   [B] Naive :latest
+2026-03-28 04:28:59,433 [INFO]     Naive: 6064→913 (84.9%)
+2026-03-28 04:28:59,433 [INFO]   [C] Copacetic
+2026-03-28 04:29:00,274 [INFO]     Copa: FAILED (time="2026-03-28T04:28:59Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:29:00,275 [INFO]   [D] Docker Scout
+2026-03-28 04:29:01,020 [INFO]     Scout: no recommendation
+2026-03-28 04:29:01,020 [INFO]   [E] AutoPatch
+2026-03-28 04:29:01,020 [INFO]     Mapping: golang:1.20 → golang:1.20-alpine
+2026-03-28 04:29:21,623 [INFO]     AutoPatch: 6064→838 (86.2%), accept=False
+2026-03-28 04:29:29,589 [INFO] 
+[31/113] ETA: ~85 min remaining
+2026-03-28 04:29:29,589 [INFO] 
+============================================================
+  Processing: golang-1.21
+============================================================
+2026-03-28 04:29:29,621 [INFO]   Building original: v3-golang-1.21-orig
+2026-03-28 04:29:56,968 [INFO]   Scanning original...
+2026-03-28 04:30:20,075 [INFO]   Baseline: 4795 vulns (C=30, H=1007, M=2996, L=744)
+2026-03-28 04:30:20,334 [INFO]   OS family: debian
+2026-03-28 04:30:20,334 [INFO]   [B] Naive :latest
+2026-03-28 04:31:24,844 [INFO]     Naive: 4795→913 (81.0%)
+2026-03-28 04:31:24,844 [INFO]   [C] Copacetic
+2026-03-28 04:31:25,863 [INFO]     Copa: FAILED (time="2026-03-28T04:31:24Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:31:25,863 [INFO]   [D] Docker Scout
+2026-03-28 04:31:27,417 [INFO]     Scout: no recommendation
+2026-03-28 04:31:27,418 [INFO]   [E] AutoPatch
+2026-03-28 04:31:27,418 [INFO]     Mapping: golang:1.21 → golang:1.21-alpine
+2026-03-28 04:31:50,467 [INFO]     AutoPatch: 4795→631 (86.8%), accept=False
+2026-03-28 04:31:51,382 [INFO] 
+[32/113] ETA: ~88 min remaining
+2026-03-28 04:31:51,398 [INFO] 
+============================================================
+  Processing: haproxy-2.4
+============================================================
+2026-03-28 04:31:51,416 [INFO]   Building original: v3-haproxy-2.4-orig
+2026-03-28 04:31:56,536 [INFO]   Scanning original...
+2026-03-28 04:32:01,157 [INFO]   Baseline: 75 vulns (C=0, H=0, M=3, L=72)
+2026-03-28 04:32:01,374 [INFO]   OS family: debian
+2026-03-28 04:32:01,374 [INFO]   [B] Naive :latest
+2026-03-28 04:32:07,928 [INFO]     Naive: 75→75 (0.0%)
+2026-03-28 04:32:07,929 [INFO]   [C] Copacetic
+2026-03-28 04:32:11,033 [WARNING]   Trivy scan FAILED for v3-haproxy-2.4-copa: 2026-03-28T04:32:10Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T04:32:11Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 04:32:11,034 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 04:32:11,059 [INFO]   [D] Docker Scout
+2026-03-28 04:32:11,845 [INFO]     Scout: no recommendation
+2026-03-28 04:32:11,845 [INFO]   [E] AutoPatch
+2026-03-28 04:32:11,845 [INFO]     Mapping: haproxy:2.4 → haproxy:3.1-alpine
+2026-03-28 04:32:16,276 [INFO]     AutoPatch: 75→0 (100.0%), accept=True
+2026-03-28 04:32:17,134 [INFO] 
+[33/113] ETA: ~85 min remaining
+2026-03-28 04:32:17,134 [INFO] 
+============================================================
+  Processing: haproxy-2.6
+============================================================
+2026-03-28 04:32:17,154 [INFO]   Building original: v3-haproxy-2.6-orig
+2026-03-28 04:32:19,379 [INFO]   Scanning original...
+2026-03-28 04:32:22,309 [INFO]   Baseline: 75 vulns (C=0, H=0, M=3, L=72)
+2026-03-28 04:32:22,612 [INFO]   OS family: debian
+2026-03-28 04:32:22,612 [INFO]   [B] Naive :latest
+2026-03-28 04:32:23,753 [INFO]     Naive: 75→75 (0.0%)
+2026-03-28 04:32:23,754 [INFO]   [C] Copacetic
+2026-03-28 04:32:27,027 [WARNING]   Trivy scan FAILED for v3-haproxy-2.6-copa: 2026-03-28T04:32:26Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T04:32:27Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 04:32:27,028 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 04:32:27,051 [INFO]   [D] Docker Scout
+2026-03-28 04:32:27,850 [INFO]     Scout: no recommendation
+2026-03-28 04:32:27,850 [INFO]   [E] AutoPatch
+2026-03-28 04:32:27,851 [INFO]     Mapping: haproxy:2.6 → haproxy:3.1-alpine
+2026-03-28 04:32:29,024 [INFO]     AutoPatch: 75→0 (100.0%), accept=True
+2026-03-28 04:32:29,904 [INFO] 
+[34/113] ETA: ~82 min remaining
+2026-03-28 04:32:29,905 [INFO] 
+============================================================
+  Processing: httpd-2.4.46
+============================================================
+2026-03-28 04:32:29,919 [INFO]   Building original: v3-httpd-2.4.46-orig
+2026-03-28 04:32:36,032 [INFO]   Scanning original...
+2026-03-28 04:32:42,771 [INFO]   Baseline: 283 vulns (C=27, H=113, M=111, L=23)
+2026-03-28 04:32:42,978 [INFO]   OS family: debian
+2026-03-28 04:32:42,979 [INFO]   [B] Naive :latest
+2026-03-28 04:32:50,242 [INFO]     Naive: 283→124 (56.2%)
+2026-03-28 04:32:50,242 [INFO]   [C] Copacetic
+2026-03-28 04:32:50,422 [INFO]     Copa: FAILED (time="2026-03-28T04:32:50Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:32:50,422 [INFO]   [D] Docker Scout
+2026-03-28 04:32:51,117 [INFO]     Scout: no recommendation
+2026-03-28 04:32:51,117 [INFO]   [E] AutoPatch
+2026-03-28 04:32:51,117 [INFO]     Mapping: httpd:2.4.46 → httpd:2.4-alpine
+2026-03-28 04:32:57,122 [INFO]     AutoPatch: 283→7 (97.5%), accept=False
+2026-03-28 04:32:58,023 [INFO] 
+[35/113] ETA: ~80 min remaining
+2026-03-28 04:32:58,023 [INFO] 
+============================================================
+  Processing: httpd-2.4.54
+============================================================
+2026-03-28 04:32:58,075 [INFO]   Building original: v3-httpd-2.4.54-orig
+2026-03-28 04:33:04,691 [INFO]   Scanning original...
+2026-03-28 04:33:11,426 [INFO]   Baseline: 384 vulns (C=15, H=79, M=142, L=140)
+2026-03-28 04:33:11,632 [INFO]   OS family: debian
+2026-03-28 04:33:11,632 [INFO]   [B] Naive :latest
+2026-03-28 04:33:12,855 [INFO]     Naive: 384→124 (67.7%)
+2026-03-28 04:33:12,855 [INFO]   [C] Copacetic
+2026-03-28 04:33:13,069 [INFO]     Copa: FAILED (time="2026-03-28T04:33:12Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:33:13,069 [INFO]   [D] Docker Scout
+2026-03-28 04:33:13,764 [INFO]     Scout: no recommendation
+2026-03-28 04:33:13,764 [INFO]   [E] AutoPatch
+2026-03-28 04:33:13,765 [INFO]     Mapping: httpd:2.4.54 → httpd:2.4-alpine
+2026-03-28 04:33:14,921 [INFO]     AutoPatch: 384→7 (98.2%), accept=False
+2026-03-28 04:33:19,992 [INFO] 
+[36/113] ETA: ~77 min remaining
+2026-03-28 04:33:19,993 [INFO] 
+============================================================
+  Processing: jenkins-2.164
+============================================================
+2026-03-28 04:33:20,010 [INFO]   Building original: v3-jenkins-2.164-orig
+2026-03-28 04:33:20,764 [WARNING]   ORIGINAL BUILD FAILED (IMAGE_NOT_FOUND)
+2026-03-28 04:33:21,571 [INFO] 
+[37/113] ETA: ~74 min remaining
+2026-03-28 04:33:21,571 [INFO] 
+============================================================
+  Processing: jenkins-lts
+============================================================
+2026-03-28 04:33:21,572 [INFO]   Building original: v3-jenkins-lts-orig
+2026-03-28 04:33:37,910 [INFO]   Scanning original...
+2026-03-28 04:34:00,990 [INFO]   Baseline: 182 vulns (C=1, H=11, M=37, L=131)
+2026-03-28 04:34:01,259 [INFO]   OS family: debian
+2026-03-28 04:34:01,259 [INFO]   [B] Naive :latest
+2026-03-28 04:34:37,514 [INFO]     Naive: 182→170 (6.6%)
+2026-03-28 04:34:37,514 [INFO]   [C] Copacetic
+2026-03-28 04:34:37,742 [INFO]     Copa: FAILED (time="2026-03-28T04:34:37Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:34:37,742 [INFO]   [D] Docker Scout
+2026-03-28 04:34:38,506 [INFO]     Scout: no recommendation
+2026-03-28 04:34:38,506 [INFO]   [E] AutoPatch
+2026-03-28 04:34:38,506 [INFO]     Mapping: jenkins/jenkins:lts → jenkins/jenkins:lts-alpine
+2026-03-28 04:35:02,440 [INFO]     AutoPatch: 182→10 (94.5%), accept=False
+2026-03-28 04:35:03,296 [INFO] 
+[38/113] ETA: ~75 min remaining
+2026-03-28 04:35:03,297 [INFO] 
+============================================================
+  Processing: joomla-4
+============================================================
+2026-03-28 04:35:03,312 [INFO]   Building original: v3-joomla-4-orig
+2026-03-28 04:36:48,525 [INFO]   Scanning original...
+2026-03-28 04:37:22,992 [INFO]   Baseline: 2455 vulns (C=38, H=335, M=1258, L=806)
+2026-03-28 04:37:23,340 [INFO]   OS family: debian
+2026-03-28 04:37:23,340 [INFO]   [B] Naive :latest
+2026-03-28 04:39:34,977 [INFO]     Naive: 2455→1125 (54.2%)
+2026-03-28 04:39:34,978 [INFO]   [C] Copacetic
+2026-03-28 04:39:35,330 [INFO]     Copa: FAILED (time="2026-03-28T04:39:34Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:39:35,330 [INFO]   [D] Docker Scout
+2026-03-28 04:39:36,090 [INFO]     Scout: no recommendation
+2026-03-28 04:39:36,090 [INFO]   [E] AutoPatch
+2026-03-28 04:39:36,090 [INFO]     Mapping: joomla:4 → joomla:5-php8.3-apache
+2026-03-28 04:41:36,871 [INFO]     AutoPatch: 2455→1125 (54.2%), accept=False
+2026-03-28 04:41:38,375 [INFO] 
+[39/113] ETA: ~85 min remaining
+2026-03-28 04:41:38,376 [INFO] 
+============================================================
+  Processing: kafka-old
+============================================================
+2026-03-28 04:41:38,403 [INFO]   Building original: v3-kafka-old-orig
+2026-03-28 04:41:39,263 [WARNING]   ORIGINAL BUILD FAILED (IMAGE_NOT_FOUND)
+2026-03-28 04:41:40,595 [INFO] 
+[40/113] ETA: ~81 min remaining
+2026-03-28 04:41:40,596 [INFO] 
+============================================================
+  Processing: mariadb-10.11
+============================================================
+2026-03-28 04:41:40,630 [INFO]   Building original: v3-mariadb-10.11-orig
+2026-03-28 04:42:28,119 [INFO]   Scanning original...
+2026-03-28 04:42:38,297 [INFO]   Baseline: 54 vulns (C=1, H=5, M=21, L=27)
+2026-03-28 04:42:38,559 [INFO]   OS family: ubuntu
+2026-03-28 04:42:38,560 [INFO]   [B] Naive :latest
+2026-03-28 04:43:16,187 [INFO]     Naive: 54→37 (31.5%)
+2026-03-28 04:43:16,187 [INFO]   [C] Copacetic
+2026-03-28 04:43:23,332 [WARNING]   Trivy scan FAILED for v3-mariadb-10.11-copa: 2026-03-28T04:43:23Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T04:43:23Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 04:43:23,333 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 04:43:23,360 [INFO]   [D] Docker Scout
+2026-03-28 04:43:24,097 [INFO]     Scout: no recommendation
+2026-03-28 04:43:24,097 [INFO]   [E] AutoPatch
+2026-03-28 04:43:24,097 [INFO]     Mapping: mariadb:10.11 → mariadb:11
+2026-03-28 04:43:49,421 [INFO]     AutoPatch: 54→37 (31.5%), accept=True
+2026-03-28 04:43:56,247 [INFO] 
+[41/113] ETA: ~82 min remaining
+2026-03-28 04:43:56,247 [INFO] 
+============================================================
+  Processing: mariadb-10.5
+============================================================
+2026-03-28 04:43:56,267 [INFO]   Building original: v3-mariadb-10.5-orig
+2026-03-28 04:44:43,310 [INFO]   Scanning original...
+2026-03-28 04:44:54,387 [INFO]   Baseline: 85 vulns (C=4, H=37, M=42, L=2)
+2026-03-28 04:44:54,634 [INFO]   OS family: ubuntu
+2026-03-28 04:44:54,634 [INFO]   [B] Naive :latest
+2026-03-28 04:45:42,103 [INFO]     Naive: 85→37 (56.5%)
+2026-03-28 04:45:42,104 [INFO]   [C] Copacetic
+2026-03-28 04:45:42,279 [INFO]     Copa: FAILED (time="2026-03-28T04:45:42Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:45:42,279 [INFO]   [D] Docker Scout
+2026-03-28 04:45:43,218 [INFO]     Scout: no recommendation
+2026-03-28 04:45:43,218 [INFO]   [E] AutoPatch
+2026-03-28 04:45:43,218 [INFO]     Mapping: mariadb:10.5 → mariadb:11
+2026-03-28 04:46:15,841 [INFO]     AutoPatch: 85→37 (56.5%), accept=False
+2026-03-28 04:46:16,729 [INFO] 
+[42/113] ETA: ~83 min remaining
+2026-03-28 04:46:16,730 [INFO] 
+============================================================
+  Processing: mongo-4.4
+============================================================
+2026-03-28 04:46:16,748 [INFO]   Building original: v3-mongo-4.4-orig
+2026-03-28 04:46:55,132 [INFO]   Scanning original...
+2026-03-28 04:47:09,460 [INFO]   Baseline: 302 vulns (C=17, H=69, M=207, L=9)
+2026-03-28 04:47:09,692 [INFO]   OS family: ubuntu
+2026-03-28 04:47:09,692 [INFO]   [B] Naive :latest
+2026-03-28 04:49:22,585 [INFO]     Naive: 302→55 (81.8%)
+2026-03-28 04:49:22,585 [INFO]   [C] Copacetic
+2026-03-28 04:49:22,801 [INFO]     Copa: FAILED (time="2026-03-28T04:49:22Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:49:22,801 [INFO]   [D] Docker Scout
+2026-03-28 04:49:23,642 [INFO]     Scout: no recommendation
+2026-03-28 04:49:23,642 [INFO]   [E] AutoPatch
+2026-03-28 04:49:23,642 [INFO]     Mapping: mongo:4.4 → golang:4.4-alpine
+2026-03-28 04:49:24,276 [INFO]     AutoPatch: 302→0 (0.0%), accept=False
+2026-03-28 04:49:25,178 [INFO] 
+[43/113] ETA: ~86 min remaining
+2026-03-28 04:49:25,179 [INFO] 
+============================================================
+  Processing: mongo-5.0
+============================================================
+2026-03-28 04:49:25,215 [INFO]   Building original: v3-mongo-5.0-orig
+2026-03-28 04:50:39,031 [INFO]   Scanning original...
+2026-03-28 04:51:09,197 [INFO]   Baseline: 230 vulns (C=9, H=61, M=151, L=9)
+2026-03-28 04:51:09,437 [INFO]   OS family: ubuntu
+2026-03-28 04:51:09,438 [INFO]   [B] Naive :latest
+2026-03-28 04:51:10,907 [INFO]     Naive: 230→55 (76.1%)
+2026-03-28 04:51:10,907 [INFO]   [C] Copacetic
+2026-03-28 04:51:11,090 [INFO]     Copa: FAILED (time="2026-03-28T04:51:10Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:51:11,090 [INFO]   [D] Docker Scout
+2026-03-28 04:51:11,935 [INFO]     Scout: no recommendation
+2026-03-28 04:51:11,936 [INFO]   [E] AutoPatch
+2026-03-28 04:51:11,936 [INFO]     Mapping: mongo:5.0 → golang:5.0-alpine
+2026-03-28 04:51:12,415 [INFO]     AutoPatch: 230→0 (0.0%), accept=False
+2026-03-28 04:51:13,307 [INFO] 
+[44/113] ETA: ~85 min remaining
+2026-03-28 04:51:13,307 [INFO] 
+============================================================
+  Processing: mongo-6.0
+============================================================
+2026-03-28 04:51:13,326 [INFO]   Building original: v3-mongo-6.0-orig
+2026-03-28 04:52:35,871 [INFO]   Scanning original...
+2026-03-28 04:53:09,054 [INFO]   Baseline: 296 vulns (C=9, H=62, M=172, L=53)
+2026-03-28 04:53:09,340 [INFO]   OS family: ubuntu
+2026-03-28 04:53:09,340 [INFO]   [B] Naive :latest
+2026-03-28 04:53:13,313 [INFO]     Naive: 296→55 (81.4%)
+2026-03-28 04:53:13,313 [INFO]   [C] Copacetic
+2026-03-28 04:53:13,509 [INFO]     Copa: FAILED (time="2026-03-28T04:53:13Z" level=info msg="Starting in single image patching mo)
+2026-03-28 04:53:13,510 [INFO]   [D] Docker Scout
+2026-03-28 04:53:14,264 [INFO]     Scout: no recommendation
+2026-03-28 04:53:14,265 [INFO]   [E] AutoPatch
+2026-03-28 04:53:14,265 [INFO]     Mapping: mongo:6.0 → golang:6.0-alpine
+2026-03-28 04:53:14,698 [INFO]     AutoPatch: 296→0 (0.0%), accept=False
+2026-03-28 04:53:15,604 [INFO] 
+[45/113] ETA: ~85 min remaining
+2026-03-28 04:53:15,605 [INFO] 
+============================================================
+  Processing: multistage-go
+============================================================
+2026-03-28 04:53:15,623 [INFO]   Building original: v3-multistage-go-orig
+2026-03-28 04:55:16,655 [INFO]   Scanning original...
+2026-03-28 04:55:18,073 [INFO]   Baseline: 62 vulns (C=4, H=21, M=36, L=1)
+2026-03-28 04:55:18,259 [INFO]   OS family: alpine
+2026-03-28 04:55:18,259 [INFO]   [B] Naive :latest
+2026-03-28 04:57:16,741 [INFO]     Naive: 62→2 (96.8%)
+2026-03-28 04:57:16,741 [INFO]   [C] Copacetic
+2026-03-28 04:57:18,282 [WARNING]   Trivy scan FAILED for v3-multistage-go-copa: 2026-03-28T04:57:17Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T04:57:18Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 04:57:18,283 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 04:57:18,312 [INFO]   [D] Docker Scout
+2026-03-28 04:57:19,238 [INFO]     Scout: no recommendation
+2026-03-28 04:57:19,239 [INFO]   [E] AutoPatch
+2026-03-28 04:57:19,239 [INFO]     Mapping: golang:1.18 → golang:1.18-alpine
+2026-03-28 04:58:15,829 [INFO]     AutoPatch: 62→62 (0.0%), accept=False
+2026-03-28 04:59:16,827 [INFO] 
+[46/113] ETA: ~91 min remaining
+2026-03-28 04:59:16,827 [INFO] 
+============================================================
+  Processing: multistage-java
+============================================================
+2026-03-28 04:59:18,563 [INFO]   Building original: v3-multistage-java-orig
+2026-03-28 04:59:34,394 [WARNING]   ORIGINAL BUILD FAILED (IMAGE_NOT_FOUND)
+2026-03-28 04:59:35,237 [INFO] 
+[47/113] ETA: ~89 min remaining
+2026-03-28 04:59:35,237 [INFO] 
+============================================================
+  Processing: multistage-node
+============================================================
+2026-03-28 04:59:35,273 [INFO]   Building original: v3-multistage-node-orig
+2026-03-28 05:02:01,933 [INFO]   Scanning original...
+2026-03-28 05:02:08,631 [INFO]   Baseline: 128 vulns (C=2, H=54, M=52, L=18)
+2026-03-28 05:02:08,876 [INFO]   OS family: debian
+2026-03-28 05:02:08,876 [INFO]   [B] Naive :latest
+2026-03-28 05:05:05,534 [INFO]     Naive: 128→2116 (-1553.1%)
+2026-03-28 05:05:05,535 [INFO]   [C] Copacetic
+2026-03-28 05:05:05,726 [INFO]     Copa: FAILED (time="2026-03-28T05:05:05Z" level=info msg="Starting in single image patching mo)
+2026-03-28 05:05:05,726 [INFO]   [D] Docker Scout
+2026-03-28 05:05:06,548 [INFO]     Scout: no recommendation
+2026-03-28 05:05:06,548 [INFO]   [E] AutoPatch
+2026-03-28 05:05:06,548 [INFO]     Mapping: node:16 → node:16-alpine
+2026-03-28 05:05:27,863 [INFO]     AutoPatch: 128→62 (51.6%), accept=False
+2026-03-28 05:05:28,863 [INFO] 
+[48/113] ETA: ~94 min remaining
+2026-03-28 05:05:28,863 [INFO] 
+============================================================
+  Processing: multistage-python
+============================================================
+2026-03-28 05:05:28,890 [INFO]   Building original: v3-multistage-python-orig
+2026-03-28 05:07:59,107 [INFO]   Scanning original...
+2026-03-28 05:08:03,770 [INFO]   Baseline: 217 vulns (C=5, H=27, M=78, L=106)
+2026-03-28 05:08:04,000 [INFO]   OS family: debian
+2026-03-28 05:08:04,000 [INFO]   [B] Naive :latest
+2026-03-28 05:09:41,020 [INFO]     Naive: 217→0 (0.0%)
+2026-03-28 05:09:41,020 [INFO]   [C] Copacetic
+2026-03-28 05:09:41,216 [INFO]     Copa: FAILED (time="2026-03-28T05:09:41Z" level=info msg="Starting in single image patching mo)
+2026-03-28 05:09:41,216 [INFO]   [D] Docker Scout
+2026-03-28 05:09:41,981 [INFO]     Scout: no recommendation
+2026-03-28 05:09:41,981 [INFO]   [E] AutoPatch
+2026-03-28 05:09:41,981 [INFO]     Mapping: python:3.8 → python:3.8-alpine
+2026-03-28 05:09:57,811 [INFO]     AutoPatch: 217→63 (71.0%), accept=False
+2026-03-28 05:09:58,808 [INFO] 
+[49/113] ETA: ~96 min remaining
+2026-03-28 05:09:58,809 [INFO] 
+============================================================
+  Processing: mysql-5.7
+============================================================
+2026-03-28 05:09:58,839 [INFO]   Building original: v3-mysql-5.7-orig
+2026-03-28 05:11:00,379 [INFO]   Scanning original...
+2026-03-28 05:11:12,894 [INFO]   Baseline: 155 vulns (C=4, H=75, M=66, L=10)
+2026-03-28 05:11:13,181 [INFO]   OS family: rhel
+2026-03-28 05:11:13,182 [INFO]   [B] Naive :latest
+2026-03-28 05:13:49,020 [INFO]     Naive: 155→25 (83.9%)
+2026-03-28 05:13:49,020 [INFO]   [C] Copacetic
+2026-03-28 05:13:49,215 [INFO]     Copa: FAILED (time="2026-03-28T05:13:49Z" level=info msg="Starting in single image patching mo)
+2026-03-28 05:13:49,215 [INFO]   [D] Docker Scout
+2026-03-28 05:13:50,004 [INFO]     Scout: no recommendation
+2026-03-28 05:13:50,004 [INFO]   [E] AutoPatch
+2026-03-28 05:13:50,004 [INFO]     Mapping: mysql:5.7 → mysql:8.4
+2026-03-28 05:15:16,255 [INFO]     AutoPatch: 155→25 (83.9%), accept=False
+2026-03-28 05:15:17,183 [INFO] 
+[50/113] ETA: ~100 min remaining
+2026-03-28 05:15:17,184 [INFO] 
+============================================================
+  Processing: mysql-8.0
+============================================================
+2026-03-28 05:15:17,210 [INFO]   Building original: v3-mysql-8.0-orig
+2026-03-28 05:16:32,178 [INFO]   Scanning original...
+2026-03-28 05:16:56,456 [INFO]   Baseline: 25 vulns (C=1, H=7, M=14, L=3)
+2026-03-28 05:16:56,742 [INFO]   OS family: rhel
+2026-03-28 05:16:56,742 [INFO]   [B] Naive :latest
+2026-03-28 05:16:58,101 [INFO]     Naive: 25→25 (0.0%)
+2026-03-28 05:16:58,101 [INFO]   [C] Copacetic
+2026-03-28 05:17:13,419 [WARNING]   Trivy scan FAILED for v3-mysql-8.0-copa: 2026-03-28T05:17:13Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T05:17:13Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 05:17:13,421 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 05:17:13,446 [INFO]   [D] Docker Scout
+2026-03-28 05:17:14,124 [INFO]     Scout: no recommendation
+2026-03-28 05:17:14,125 [INFO]   [E] AutoPatch
+2026-03-28 05:17:14,125 [INFO]     Mapping: mysql:8.0 → mysql:8.4
+2026-03-28 05:17:15,486 [INFO]     AutoPatch: 25→25 (0.0%), accept=False
+2026-03-28 05:17:29,555 [INFO] 
+[51/113] ETA: ~99 min remaining
+2026-03-28 05:17:29,555 [INFO] 
+============================================================
+  Processing: nextcloud-25
+============================================================
+2026-03-28 05:17:29,588 [INFO]   Building original: v3-nextcloud-25-orig
+2026-03-28 05:19:40,029 [INFO]   Scanning original...
+2026-03-28 05:20:16,857 [INFO]   Baseline: 5707 vulns (C=94, H=1315, M=3193, L=1073)
+2026-03-28 05:20:17,196 [INFO]   OS family: debian
+2026-03-28 05:20:17,196 [INFO]   [B] Naive :latest
+2026-03-28 05:24:27,618 [INFO]     Naive: 5707→1148 (79.9%)
+2026-03-28 05:24:27,618 [INFO]   [C] Copacetic
+2026-03-28 05:24:28,684 [INFO]     Copa: FAILED (time="2026-03-28T05:24:27Z" level=info msg="Starting in single image patching mo)
+2026-03-28 05:24:28,684 [INFO]   [D] Docker Scout
+2026-03-28 05:24:29,472 [INFO]     Scout: no recommendation
+2026-03-28 05:24:29,472 [INFO]   [E] AutoPatch
+2026-03-28 05:24:29,473 [INFO]     Mapping: nextcloud:25 → nextcloud:29-apache
+2026-03-28 05:27:49,588 [INFO]     AutoPatch: 5707→3080 (46.0%), accept=False
+2026-03-28 05:27:50,645 [INFO] 
+[52/113] ETA: ~108 min remaining
+2026-03-28 05:27:50,646 [INFO] 
+============================================================
+  Processing: nextcloud-27
+============================================================
+2026-03-28 05:27:50,666 [INFO]   Building original: v3-nextcloud-27-orig
+2026-03-28 05:30:27,441 [INFO]   Scanning original...
+2026-03-28 05:31:10,604 [INFO]   Baseline: 4731 vulns (C=71, H=1044, M=2719, L=871)
+2026-03-28 05:31:10,974 [INFO]   OS family: debian
+2026-03-28 05:31:10,975 [INFO]   [B] Naive :latest
+2026-03-28 05:31:12,948 [INFO]     Naive: 4731→1148 (75.7%)
+2026-03-28 05:31:12,948 [INFO]   [C] Copacetic
+2026-03-28 05:31:13,520 [INFO]     Copa: FAILED (time="2026-03-28T05:31:12Z" level=info msg="Starting in single image patching mo)
+2026-03-28 05:31:13,521 [INFO]   [D] Docker Scout
+2026-03-28 05:31:14,238 [INFO]     Scout: no recommendation
+2026-03-28 05:31:14,238 [INFO]   [E] AutoPatch
+2026-03-28 05:31:14,238 [INFO]     Mapping: nextcloud:27 → nextcloud:29-apache
+2026-03-28 05:31:16,525 [INFO]     AutoPatch: 4731→3080 (34.9%), accept=True
+2026-03-28 05:31:17,622 [INFO] 
+[53/113] ETA: ~108 min remaining
+2026-03-28 05:31:17,622 [INFO] 
+============================================================
+  Processing: nginx-1.10
+============================================================
+2026-03-28 05:31:17,652 [INFO]   Building original: v3-nginx-1.10-orig
+2026-03-28 05:31:39,112 [INFO]   Scanning original...
+2026-03-28 05:31:44,734 [INFO]   Baseline: 423 vulns (C=54, H=150, M=145, L=52)
+2026-03-28 05:31:44,983 [INFO]   OS family: debian
+2026-03-28 05:31:44,983 [INFO]   [B] Naive :latest
+2026-03-28 05:31:57,710 [INFO]     Naive: 423→155 (63.4%)
+2026-03-28 05:31:57,710 [INFO]   [C] Copacetic
+2026-03-28 05:31:57,901 [INFO]     Copa: FAILED (time="2026-03-28T05:31:57Z" level=info msg="Starting in single image patching mo)
+2026-03-28 05:31:57,901 [INFO]   [D] Docker Scout
+2026-03-28 05:31:58,929 [INFO]     Scout: no recommendation
+2026-03-28 05:31:58,929 [INFO]   [E] AutoPatch
+2026-03-28 05:31:58,929 [INFO]     Mapping: nginx:1.10 → nginx:stable-alpine
+2026-03-28 05:31:59,779 [INFO]     AutoPatch: 423→0 (0.0%), accept=False
+2026-03-28 05:32:00,886 [INFO] 
+[54/113] ETA: ~105 min remaining
+2026-03-28 05:32:00,886 [INFO] 
+============================================================
+  Processing: nginx-1.18
+============================================================
+2026-03-28 05:32:00,908 [INFO]   Building original: v3-nginx-1.18-orig
+2026-03-28 05:32:01,808 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:02,905 [INFO] 
+[55/113] ETA: ~102 min remaining
+2026-03-28 05:32:02,906 [INFO] 
+============================================================
+  Processing: nginx-1.18-alpine
+============================================================
+2026-03-28 05:32:02,908 [INFO]   Building original: v3-nginx-1.18-alpine-orig
+2026-03-28 05:32:03,796 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:11,947 [INFO] 
+[56/113] ETA: ~98 min remaining
+2026-03-28 05:32:11,948 [INFO] 
+============================================================
+  Processing: nginx-1.21
+============================================================
+2026-03-28 05:32:11,964 [INFO]   Building original: v3-nginx-1.21-orig
+2026-03-28 05:32:13,056 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:14,081 [INFO] 
+[57/113] ETA: ~95 min remaining
+2026-03-28 05:32:14,081 [INFO] 
+============================================================
+  Processing: nginx-1.24
+============================================================
+2026-03-28 05:32:14,083 [INFO]   Building original: v3-nginx-1.24-orig
+2026-03-28 05:32:15,044 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:16,099 [INFO] 
+[58/113] ETA: ~92 min remaining
+2026-03-28 05:32:16,100 [INFO] 
+============================================================
+  Processing: node-12
+============================================================
+2026-03-28 05:32:16,132 [INFO]   Building original: v3-node-12-orig
+2026-03-28 05:32:17,244 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:18,279 [INFO] 
+[59/113] ETA: ~88 min remaining
+2026-03-28 05:32:18,280 [INFO] 
+============================================================
+  Processing: node-14
+============================================================
+2026-03-28 05:32:18,281 [INFO]   Building original: v3-node-14-orig
+2026-03-28 05:32:19,218 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:20,248 [INFO] 
+[60/113] ETA: ~85 min remaining
+2026-03-28 05:32:20,248 [INFO] 
+============================================================
+  Processing: node-14-alpine
+============================================================
+2026-03-28 05:32:20,273 [INFO]   Building original: v3-node-14-alpine-orig
+2026-03-28 05:32:21,169 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:22,324 [INFO] 
+[61/113] ETA: ~82 min remaining
+2026-03-28 05:32:22,325 [INFO] 
+============================================================
+  Processing: node-16
+============================================================
+2026-03-28 05:32:22,326 [INFO]   Building original: v3-node-16-orig
+2026-03-28 05:32:23,236 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:24,284 [INFO] 
+[62/113] ETA: ~80 min remaining
+2026-03-28 05:32:24,284 [INFO] 
+============================================================
+  Processing: node-16-slim
+============================================================
+2026-03-28 05:32:24,287 [INFO]   Building original: v3-node-16-slim-orig
+2026-03-28 05:32:25,177 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:26,207 [INFO] 
+[63/113] ETA: ~77 min remaining
+2026-03-28 05:32:26,207 [INFO] 
+============================================================
+  Processing: node-18
+============================================================
+2026-03-28 05:32:26,210 [INFO]   Building original: v3-node-18-orig
+2026-03-28 05:32:27,121 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:28,138 [INFO] 
+[64/113] ETA: ~74 min remaining
+2026-03-28 05:32:28,139 [INFO] 
+============================================================
+  Processing: node-18-bullseye
+============================================================
+2026-03-28 05:32:28,140 [INFO]   Building original: v3-node-18-bullseye-orig
+2026-03-28 05:32:29,094 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:30,123 [INFO] 
+[65/113] ETA: ~71 min remaining
+2026-03-28 05:32:30,124 [INFO] 
+============================================================
+  Processing: node-20
+============================================================
+2026-03-28 05:32:30,126 [INFO]   Building original: v3-node-20-orig
+2026-03-28 05:32:31,080 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:32,234 [INFO] 
+[66/113] ETA: ~69 min remaining
+2026-03-28 05:32:32,234 [INFO] 
+============================================================
+  Processing: openjdk-11
+============================================================
+2026-03-28 05:32:32,252 [INFO]   Building original: v3-openjdk-11-orig
+2026-03-28 05:32:32,888 [WARNING]   ORIGINAL BUILD FAILED (IMAGE_NOT_FOUND)
+2026-03-28 05:32:33,922 [INFO] 
+[67/113] ETA: ~67 min remaining
+2026-03-28 05:32:33,922 [INFO] 
+============================================================
+  Processing: openjdk-17
+============================================================
+2026-03-28 05:32:33,925 [INFO]   Building original: v3-openjdk-17-orig
+2026-03-28 05:32:34,296 [WARNING]   ORIGINAL BUILD FAILED (IMAGE_NOT_FOUND)
+2026-03-28 05:32:35,323 [INFO] 
+[68/113] ETA: ~64 min remaining
+2026-03-28 05:32:35,324 [INFO] 
+============================================================
+  Processing: openjdk-8
+============================================================
+2026-03-28 05:32:35,325 [INFO]   Building original: v3-openjdk-8-orig
+2026-03-28 05:32:35,700 [WARNING]   ORIGINAL BUILD FAILED (IMAGE_NOT_FOUND)
+2026-03-28 05:32:36,846 [INFO] 
+[69/113] ETA: ~62 min remaining
+2026-03-28 05:32:36,847 [INFO] 
+============================================================
+  Processing: php-7.4
+============================================================
+2026-03-28 05:32:36,848 [INFO]   Building original: v3-php-7.4-orig
+2026-03-28 05:32:38,260 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:39,483 [INFO] 
+[70/113] ETA: ~60 min remaining
+2026-03-28 05:32:39,483 [INFO] 
+============================================================
+  Processing: php-7.4-apache
+============================================================
+2026-03-28 05:32:39,510 [INFO]   Building original: v3-php-7.4-apache-orig
+2026-03-28 05:32:40,548 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:41,723 [INFO] 
+[71/113] ETA: ~57 min remaining
+2026-03-28 05:32:41,723 [INFO] 
+============================================================
+  Processing: php-8.0
+============================================================
+2026-03-28 05:32:41,725 [INFO]   Building original: v3-php-8.0-orig
+2026-03-28 05:32:42,647 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:43,732 [INFO] 
+[72/113] ETA: ~55 min remaining
+2026-03-28 05:32:43,733 [INFO] 
+============================================================
+  Processing: php-8.0-fpm
+============================================================
+2026-03-28 05:32:43,759 [INFO]   Building original: v3-php-8.0-fpm-orig
+2026-03-28 05:32:44,662 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:45,758 [INFO] 
+[73/113] ETA: ~53 min remaining
+2026-03-28 05:32:45,758 [INFO] 
+============================================================
+  Processing: php-8.1
+============================================================
+2026-03-28 05:32:45,760 [INFO]   Building original: v3-php-8.1-orig
+2026-03-28 05:32:46,680 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:47,741 [INFO] 
+[74/113] ETA: ~51 min remaining
+2026-03-28 05:32:47,741 [INFO] 
+============================================================
+  Processing: php-8.1-alpine
+============================================================
+2026-03-28 05:32:47,760 [INFO]   Building original: v3-php-8.1-alpine-orig
+2026-03-28 05:32:48,653 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:49,720 [INFO] 
+[75/113] ETA: ~49 min remaining
+2026-03-28 05:32:49,721 [INFO] 
+============================================================
+  Processing: php-8.2
+============================================================
+2026-03-28 05:32:49,722 [INFO]   Building original: v3-php-8.2-orig
+2026-03-28 05:32:50,643 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:51,815 [INFO] 
+[76/113] ETA: ~47 min remaining
+2026-03-28 05:32:51,816 [INFO] 
+============================================================
+  Processing: postgres-11
+============================================================
+2026-03-28 05:32:51,836 [INFO]   Building original: v3-postgres-11-orig
+2026-03-28 05:32:52,995 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:54,047 [INFO] 
+[77/113] ETA: ~45 min remaining
+2026-03-28 05:32:54,047 [INFO] 
+============================================================
+  Processing: postgres-12
+============================================================
+2026-03-28 05:32:54,050 [INFO]   Building original: v3-postgres-12-orig
+2026-03-28 05:32:55,008 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:56,061 [INFO] 
+[78/113] ETA: ~44 min remaining
+2026-03-28 05:32:56,062 [INFO] 
+============================================================
+  Processing: postgres-13
+============================================================
+2026-03-28 05:32:56,065 [INFO]   Building original: v3-postgres-13-orig
+2026-03-28 05:32:56,968 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:57,991 [INFO] 
+[79/113] ETA: ~42 min remaining
+2026-03-28 05:32:57,991 [INFO] 
+============================================================
+  Processing: postgres-14
+============================================================
+2026-03-28 05:32:57,993 [INFO]   Building original: v3-postgres-14-orig
+2026-03-28 05:32:58,897 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:32:59,923 [INFO] 
+[80/113] ETA: ~40 min remaining
+2026-03-28 05:32:59,924 [INFO] 
+============================================================
+  Processing: python-3.10
+============================================================
+2026-03-28 05:32:59,940 [INFO]   Building original: v3-python-3.10-orig
+2026-03-28 05:33:01,051 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:02,257 [INFO] 
+[81/113] ETA: ~39 min remaining
+2026-03-28 05:33:02,257 [INFO] 
+============================================================
+  Processing: python-3.10-bullseye
+============================================================
+2026-03-28 05:33:02,259 [INFO]   Building original: v3-python-3.10-bullseye-orig
+2026-03-28 05:33:03,251 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:04,366 [INFO] 
+[82/113] ETA: ~37 min remaining
+2026-03-28 05:33:04,366 [INFO] 
+============================================================
+  Processing: python-3.11
+============================================================
+2026-03-28 05:33:04,370 [INFO]   Building original: v3-python-3.11-orig
+2026-03-28 05:33:05,309 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:06,413 [INFO] 
+[83/113] ETA: ~35 min remaining
+2026-03-28 05:33:06,413 [INFO] 
+============================================================
+  Processing: python-3.6
+============================================================
+2026-03-28 05:33:06,415 [INFO]   Building original: v3-python-3.6-orig
+2026-03-28 05:33:07,334 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:08,412 [INFO] 
+[84/113] ETA: ~34 min remaining
+2026-03-28 05:33:08,413 [INFO] 
+============================================================
+  Processing: python-3.7
+============================================================
+2026-03-28 05:33:08,414 [INFO]   Building original: v3-python-3.7-orig
+2026-03-28 05:33:09,311 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:10,389 [INFO] 
+[85/113] ETA: ~32 min remaining
+2026-03-28 05:33:10,390 [INFO] 
+============================================================
+  Processing: python-3.8
+============================================================
+2026-03-28 05:33:10,392 [INFO]   Building original: v3-python-3.8-orig
+2026-03-28 05:33:11,292 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:12,475 [INFO] 
+[86/113] ETA: ~31 min remaining
+2026-03-28 05:33:12,475 [INFO] 
+============================================================
+  Processing: python-3.8-slim
+============================================================
+2026-03-28 05:33:12,477 [INFO]   Building original: v3-python-3.8-slim-orig
+2026-03-28 05:33:13,405 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:14,462 [INFO] 
+[87/113] ETA: ~29 min remaining
+2026-03-28 05:33:14,463 [INFO] 
+============================================================
+  Processing: python-3.9
+============================================================
+2026-03-28 05:33:14,465 [INFO]   Building original: v3-python-3.9-orig
+2026-03-28 05:33:15,422 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:16,521 [INFO] 
+[88/113] ETA: ~28 min remaining
+2026-03-28 05:33:16,522 [INFO] 
+============================================================
+  Processing: python-3.9-alpine
+============================================================
+2026-03-28 05:33:16,524 [INFO]   Building original: v3-python-3.9-alpine-orig
+2026-03-28 05:33:17,427 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:18,503 [INFO] 
+[89/113] ETA: ~26 min remaining
+2026-03-28 05:33:18,504 [INFO] 
+============================================================
+  Processing: rabbitmq-3.11
+============================================================
+2026-03-28 05:33:18,532 [INFO]   Building original: v3-rabbitmq-3.11-orig
+2026-03-28 05:33:19,657 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:20,731 [INFO] 
+[90/113] ETA: ~25 min remaining
+2026-03-28 05:33:20,731 [INFO] 
+============================================================
+  Processing: rabbitmq-3.9
+============================================================
+2026-03-28 05:33:20,754 [INFO]   Building original: v3-rabbitmq-3.9-orig
+2026-03-28 05:33:21,660 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:22,849 [INFO] 
+[91/113] ETA: ~24 min remaining
+2026-03-28 05:33:22,849 [INFO] 
+============================================================
+  Processing: redis-5
+============================================================
+2026-03-28 05:33:22,882 [INFO]   Building original: v3-redis-5-orig
+2026-03-28 05:33:24,012 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:25,060 [INFO] 
+[92/113] ETA: ~22 min remaining
+2026-03-28 05:33:25,061 [INFO] 
+============================================================
+  Processing: redis-6
+============================================================
+2026-03-28 05:33:25,062 [INFO]   Building original: v3-redis-6-orig
+2026-03-28 05:33:25,966 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:27,000 [INFO] 
+[93/113] ETA: ~21 min remaining
+2026-03-28 05:33:27,001 [INFO] 
+============================================================
+  Processing: redis-7
+============================================================
+2026-03-28 05:33:27,030 [INFO]   Building original: v3-redis-7-orig
+2026-03-28 05:33:27,945 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:29,060 [INFO] 
+[94/113] ETA: ~20 min remaining
+2026-03-28 05:33:29,061 [INFO] 
+============================================================
+  Processing: rockylinux-8
+============================================================
+2026-03-28 05:33:29,075 [INFO]   Building original: v3-rockylinux-8-orig
+2026-03-28 05:33:30,206 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:31,312 [INFO] 
+[95/113] ETA: ~19 min remaining
+2026-03-28 05:33:31,312 [INFO] 
+============================================================
+  Processing: rockylinux-9
+============================================================
+2026-03-28 05:33:31,315 [INFO]   Building original: v3-rockylinux-9-orig
+2026-03-28 05:33:32,251 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:33,457 [INFO] 
+[96/113] ETA: ~18 min remaining
+2026-03-28 05:33:33,458 [INFO] 
+============================================================
+  Processing: ruby-2.7
+============================================================
+2026-03-28 05:33:33,488 [INFO]   Building original: v3-ruby-2.7-orig
+2026-03-28 05:33:34,626 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:35,740 [INFO] 
+[97/113] ETA: ~16 min remaining
+2026-03-28 05:33:35,740 [INFO] 
+============================================================
+  Processing: ruby-2.7-alpine
+============================================================
+2026-03-28 05:33:35,742 [INFO]   Building original: v3-ruby-2.7-alpine-orig
+2026-03-28 05:33:36,696 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:37,801 [INFO] 
+[98/113] ETA: ~15 min remaining
+2026-03-28 05:33:37,801 [INFO] 
+============================================================
+  Processing: ruby-3.0
+============================================================
+2026-03-28 05:33:37,803 [INFO]   Building original: v3-ruby-3.0-orig
+2026-03-28 05:33:38,710 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:39,790 [INFO] 
+[99/113] ETA: ~14 min remaining
+2026-03-28 05:33:39,790 [INFO] 
+============================================================
+  Processing: ruby-3.1
+============================================================
+2026-03-28 05:33:39,792 [INFO]   Building original: v3-ruby-3.1-orig
+2026-03-28 05:33:40,718 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:41,780 [INFO] 
+[100/113] ETA: ~13 min remaining
+2026-03-28 05:33:41,781 [INFO] 
+============================================================
+  Processing: ruby-3.2
+============================================================
+2026-03-28 05:33:41,782 [INFO]   Building original: v3-ruby-3.2-orig
+2026-03-28 05:33:42,694 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:43,899 [INFO] 
+[101/113] ETA: ~12 min remaining
+2026-03-28 05:33:43,900 [INFO] 
+============================================================
+  Processing: scratch
+============================================================
+2026-03-28 05:33:43,997 [INFO]   Building original: v3-scratch-orig
+2026-03-28 05:33:44,489 [INFO]   Scanning original...
+2026-03-28 05:33:44,770 [INFO]   Baseline: 0 vulns (C=0, H=0, M=0, L=0)
+2026-03-28 05:33:44,966 [INFO]   OS family: distroless
+2026-03-28 05:33:44,966 [INFO]   [B] Naive :latest
+2026-03-28 05:33:45,622 [INFO]     Naive: 0→0 (0.0%)
+2026-03-28 05:33:45,622 [INFO]   [C] Copacetic
+2026-03-28 05:33:46,452 [WARNING]   Trivy scan FAILED for v3-scratch-copa: 2026-03-28T05:33:46Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T05:33:46Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 05:33:46,453 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 05:33:46,480 [INFO]   [D] Docker Scout
+2026-03-28 05:33:47,268 [INFO]     Scout: no recommendation
+2026-03-28 05:33:47,268 [INFO]   [E] AutoPatch
+2026-03-28 05:33:47,269 [INFO]     Mapping: scratch → gcr.io/distroless/static-debian12:nonroot
+2026-03-28 05:33:47,897 [INFO]     AutoPatch: 0→0 (0.0%), accept=False
+2026-03-28 05:33:49,016 [INFO] 
+[102/113] ETA: ~11 min remaining
+2026-03-28 05:33:49,016 [INFO] 
+============================================================
+  Processing: sonarqube-9
+============================================================
+2026-03-28 05:33:49,050 [INFO]   Building original: v3-sonarqube-9-orig
+2026-03-28 05:33:50,173 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:51,316 [INFO] 
+[103/113] ETA: ~10 min remaining
+2026-03-28 05:33:51,316 [INFO] 
+============================================================
+  Processing: traefik-2.5
+============================================================
+2026-03-28 05:33:51,337 [INFO]   Building original: v3-traefik-2.5-orig
+2026-03-28 05:33:52,496 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:53,646 [INFO] 
+[104/113] ETA: ~9 min remaining
+2026-03-28 05:33:53,646 [INFO] 
+============================================================
+  Processing: traefik-2.9
+============================================================
+2026-03-28 05:33:53,649 [INFO]   Building original: v3-traefik-2.9-orig
+2026-03-28 05:33:54,590 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:55,685 [INFO] 
+[105/113] ETA: ~8 min remaining
+2026-03-28 05:33:55,685 [INFO] 
+============================================================
+  Processing: ubuntu-16.04
+============================================================
+2026-03-28 05:33:55,716 [INFO]   Building original: v3-ubuntu-16.04-orig
+2026-03-28 05:33:56,842 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:33:58,064 [INFO] 
+[106/113] ETA: ~7 min remaining
+2026-03-28 05:33:58,065 [INFO] 
+============================================================
+  Processing: ubuntu-18.04
+============================================================
+2026-03-28 05:33:58,066 [INFO]   Building original: v3-ubuntu-18.04-orig
+2026-03-28 05:33:59,068 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:34:00,205 [INFO] 
+[107/113] ETA: ~6 min remaining
+2026-03-28 05:34:00,206 [INFO] 
+============================================================
+  Processing: ubuntu-20.04
+============================================================
+2026-03-28 05:34:00,208 [INFO]   Building original: v3-ubuntu-20.04-orig
+2026-03-28 05:34:01,186 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:34:02,317 [INFO] 
+[108/113] ETA: ~5 min remaining
+2026-03-28 05:34:02,318 [INFO] 
+============================================================
+  Processing: ubuntu-22.04
+============================================================
+2026-03-28 05:34:02,321 [INFO]   Building original: v3-ubuntu-22.04-orig
+2026-03-28 05:34:03,272 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:34:04,373 [INFO] 
+[109/113] ETA: ~4 min remaining
+2026-03-28 05:34:04,374 [INFO] 
+============================================================
+  Processing: ubuntu-24.04
+============================================================
+2026-03-28 05:34:04,376 [INFO]   Building original: v3-ubuntu-24.04-orig
+2026-03-28 05:34:05,325 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:34:06,457 [INFO] 
+[110/113] ETA: ~3 min remaining
+2026-03-28 05:34:06,457 [INFO] 
+============================================================
+  Processing: vault-1.12
+============================================================
+2026-03-28 05:34:06,477 [INFO]   Building original: v3-vault-1.12-orig
+2026-03-28 05:34:13,658 [INFO]   Scanning original...
+2026-03-28 05:34:26,880 [INFO]   Baseline: 164 vulns (C=8, H=66, M=82, L=8)
+2026-03-28 05:34:27,405 [INFO]   OS family: alpine
+2026-03-28 05:34:27,406 [INFO]   [B] Naive :latest
+2026-03-28 05:35:25,726 [INFO]     Naive: 164→7 (95.7%)
+2026-03-28 05:35:25,726 [INFO]   [C] Copacetic
+2026-03-28 05:35:25,900 [INFO]     Copa: FAILED (time="2026-03-28T05:35:25Z" level=info msg="Starting in single image patching mo)
+2026-03-28 05:35:25,900 [INFO]   [D] Docker Scout
+2026-03-28 05:35:26,656 [INFO]     Scout: no recommendation
+2026-03-28 05:35:26,657 [INFO]   [E] AutoPatch
+2026-03-28 05:35:26,657 [INFO]     Mapping: hashicorp/vault:1.12.0 → hashicorp/vault:latest
+2026-03-28 05:35:27,847 [INFO]     AutoPatch: 164→7 (95.7%), accept=False
+2026-03-28 05:35:29,740 [INFO] 
+[111/113] ETA: ~2 min remaining
+2026-03-28 05:35:29,740 [INFO] 
+============================================================
+  Processing: vault-1.14
+============================================================
+2026-03-28 05:35:29,756 [INFO]   Building original: v3-vault-1.14-orig
+2026-03-28 05:36:01,691 [INFO]   Scanning original...
+2026-03-28 05:36:11,492 [INFO]   Baseline: 119 vulns (C=5, H=37, M=71, L=6)
+2026-03-28 05:36:11,713 [INFO]   OS family: alpine
+2026-03-28 05:36:11,713 [INFO]   [B] Naive :latest
+2026-03-28 05:37:14,247 [INFO]     Naive: 119→7 (94.1%)
+2026-03-28 05:37:14,247 [INFO]   [C] Copacetic
+2026-03-28 05:37:14,487 [INFO]     Copa: FAILED (time="2026-03-28T05:37:14Z" level=info msg="Starting in single image patching mo)
+2026-03-28 05:37:14,487 [INFO]   [D] Docker Scout
+2026-03-28 05:37:15,369 [INFO]     Scout: no recommendation
+2026-03-28 05:37:15,370 [INFO]   [E] AutoPatch
+2026-03-28 05:37:15,370 [INFO]     Mapping: hashicorp/vault:1.14.0 → hashicorp/vault:latest
+2026-03-28 05:37:16,626 [INFO]     AutoPatch: 119→7 (94.1%), accept=False
+2026-03-28 05:37:17,766 [INFO] 
+[112/113] ETA: ~1 min remaining
+2026-03-28 05:37:17,766 [INFO] 
+============================================================
+  Processing: wordpress-5
+============================================================
+2026-03-28 05:37:17,818 [INFO]   Building original: v3-wordpress-5-orig
+2026-03-28 05:37:18,955 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:37:20,093 [INFO] 
+[113/113] ETA: ~0 min remaining
+2026-03-28 05:37:20,093 [INFO] 
+============================================================
+  Processing: wordpress-6
+============================================================
+2026-03-28 05:37:20,095 [INFO]   Building original: v3-wordpress-6-orig
+2026-03-28 05:37:21,046 [WARNING]   ORIGINAL BUILD FAILED (BUILD_ERROR)
+2026-03-28 05:37:22,159 [INFO] 
+DONE: 565 results in 98.9 minutes
+2026-03-28 05:57:52,846 [INFO] Crash recovery: 250 results from previous run
+2026-03-28 05:57:52,853 [INFO] Found 113 Dockerfiles
+2026-03-28 05:57:52,853 [INFO] 
+[1/113] ETA: ~0 min remaining
+2026-03-28 05:57:52,853 [INFO] 
+============================================================
+  Processing: adoptopenjdk-11
+============================================================
+2026-03-28 05:57:52,919 [INFO]   Building original: v3-adoptopenjdk-11-orig
+2026-03-28 05:58:02,078 [INFO]   Scanning original...
+2026-03-28 05:58:10,266 [INFO]   Baseline: 411 vulns (C=0, H=9, M=265, L=137)
+2026-03-28 05:58:10,494 [INFO]   OS family: ubuntu
+2026-03-28 05:58:11,507 [INFO] 
+[2/113] ETA: ~34 min remaining
+2026-03-28 05:58:11,508 [INFO] 
+============================================================
+  Processing: almalinux-8
+============================================================
+2026-03-28 05:58:11,569 [INFO]   Building original: v3-almalinux-8-orig
+2026-03-28 05:58:48,213 [INFO]   Scanning original...
+2026-03-28 05:59:04,297 [INFO]   Baseline: 18 vulns (C=0, H=0, M=18, L=0)
+2026-03-28 05:59:05,128 [INFO]   OS family: alma
+2026-03-28 05:59:08,390 [INFO] 
+[3/113] ETA: ~69 min remaining
+2026-03-28 05:59:08,390 [INFO] 
+============================================================
+  Processing: almalinux-9
+============================================================
+2026-03-28 05:59:08,444 [INFO]   Building original: v3-almalinux-9-orig
+2026-03-28 05:59:35,736 [WARNING]   ORIGINAL BUILD FAILED (RATE_LIMITED)
+2026-03-28 05:59:37,446 [INFO] 
+[4/113] ETA: ~63 min remaining
+2026-03-28 05:59:37,447 [INFO] 
+============================================================
+  Processing: alpine-3.12
+============================================================
+2026-03-28 05:59:37,528 [INFO]   Building original: v3-alpine-3.12-orig
+2026-03-28 05:59:42,163 [INFO]   Scanning original...
+2026-03-28 05:59:43,312 [INFO]   Baseline: 1 vulns (C=1, H=0, M=0, L=0)
+2026-03-28 05:59:43,665 [INFO]   OS family: alpine
+2026-03-28 05:59:45,378 [INFO] 
+[5/113] ETA: ~51 min remaining
+2026-03-28 05:59:45,378 [INFO] 
+============================================================
+  Processing: alpine-3.14
+============================================================
+2026-03-28 05:59:45,381 [INFO]   Building original: v3-alpine-3.14-orig
+2026-03-28 05:59:50,357 [INFO]   Scanning original...
+2026-03-28 05:59:51,633 [INFO]   Baseline: 0 vulns (C=0, H=0, M=0, L=0)
+2026-03-28 05:59:51,948 [INFO]   OS family: alpine
+2026-03-28 05:59:51,948 [INFO]   [B] Naive :latest
+2026-03-28 06:00:12,757 [INFO]     Naive: 0→2 (-100.0%)
+2026-03-28 06:00:12,758 [INFO]   [C] Copacetic
+2026-03-28 06:00:16,174 [WARNING]   Trivy scan FAILED for v3-alpine-3.14-copa: 2026-03-28T06:00:15Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T06:00:16Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 06:00:16,174 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 06:00:16,206 [INFO]   [D] Docker Scout
+2026-03-28 06:00:24,384 [INFO]     Scout: no recommendation
+2026-03-28 06:00:24,385 [INFO]   [E] AutoPatch
+2026-03-28 06:00:24,385 [INFO]     Mapping: alpine:3.14 → alpine:3.21
+2026-03-28 06:00:30,583 [INFO]     AutoPatch: 0→0 (0.0%), accept=False
+2026-03-28 06:00:32,711 [INFO] 
+[6/113] ETA: ~57 min remaining
+2026-03-28 06:00:32,751 [INFO] 
+============================================================
+  Processing: alpine-3.16
+============================================================
+2026-03-28 06:00:32,777 [INFO]   Building original: v3-alpine-3.16-orig
+2026-03-28 06:00:36,478 [INFO]   Scanning original...
+2026-03-28 06:00:37,386 [INFO]   Baseline: 4 vulns (C=0, H=2, M=2, L=0)
+2026-03-28 06:00:37,619 [INFO]   OS family: alpine
+2026-03-28 06:00:38,609 [INFO] 
+[7/113] ETA: ~49 min remaining
+2026-03-28 06:00:38,609 [INFO] 
+============================================================
+  Processing: alpine-3.18
+============================================================
+2026-03-28 06:00:38,610 [INFO]   Building original: v3-alpine-3.18-orig
+2026-03-28 06:00:43,412 [INFO]   Scanning original...
+2026-03-28 06:00:44,795 [INFO]   Baseline: 0 vulns (C=0, H=0, M=0, L=0)
+2026-03-28 06:00:44,984 [INFO]   OS family: alpine
+2026-03-28 06:00:44,985 [INFO]   [B] Naive :latest
+2026-03-28 06:00:50,250 [INFO]     Naive: 0→2 (-100.0%)
+2026-03-28 06:00:50,250 [INFO]   [C] Copacetic
+2026-03-28 06:00:51,911 [WARNING]   Trivy scan FAILED for v3-alpine-3.18-copa: 2026-03-28T06:00:51Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-03-28T06:00:51Z	FATAL	Fatal error	run error: image scan error: scan error: una
+2026-03-28 06:00:51,912 [INFO]     Copa: patched but RESCAN FAILED (keeping original counts)
+2026-03-28 06:00:51,941 [INFO]   [D] Docker Scout
+2026-03-28 06:00:59,495 [INFO]     Scout: no recommendation
+2026-03-28 06:00:59,495 [INFO]   [E] AutoPatch
+2026-03-28 06:00:59,495 [INFO]     Mapping: alpine:3.18 → alpine:3.21
+2026-03-28 06:01:05,628 [INFO]     AutoPatch: 0→0 (0.0%), accept=False
+2026-03-28 06:01:06,635 [INFO] 
+[8/113] ETA: ~48 min remaining
+2026-03-28 06:01:06,635 [INFO] 
+============================================================
+  Processing: caddy-2.4
+============================================================
+2026-03-28 06:01:06,666 [INFO]   Building original: v3-caddy-2.4-orig
+2026-03-28 06:01:07,367 [WARNING]   ORIGINAL BUILD FAILED (IMAGE_NOT_FOUND)
+2026-03-28 06:01:08,309 [INFO] 
+[9/113] ETA: ~42 min remaining
+2026-03-28 06:01:08,309 [INFO] 
+============================================================
+  Processing: centos-7
+============================================================
+2026-03-28 06:01:08,337 [INFO]   Building original: v3-centos-7-orig
+2026-03-28 06:01:19,340 [WARNING]   ORIGINAL BUILD FAILED (NETWORK)
+2026-03-28 06:01:20,267 [INFO] 
+[10/113] ETA: ~39 min remaining
+2026-03-28 06:01:20,267 [INFO] 
+============================================================
+  Processing: consul-1.14
+============================================================
+2026-03-28 06:01:20,288 [INFO]   Building original: v3-consul-1.14-orig
+2026-03-28 06:01:26,742 [INFO]   Scanning original...
+2026-03-28 06:01:32,022 [INFO]   Baseline: 164 vulns (C=7, H=35, M=111, L=11)
+2026-03-28 06:01:32,257 [INFO]   OS family: alpine
+2026-03-28 06:01:34,284 [INFO] 
+[11/113] ETA: ~38 min remaining
+2026-03-28 06:01:34,285 [INFO] 
+============================================================
+  Processing: debian-bookworm
+============================================================
+2026-03-28 06:01:34,311 [INFO]   Building original: v3-debian-bookworm-orig
+2026-03-28 06:01:52,315 [INFO]   Scanning original...
+2026-03-28 06:01:56,152 [INFO]   Baseline: 149 vulns (C=1, H=4, M=25, L=117)
+2026-03-28 06:01:56,369 [INFO]   OS family: debian
+2026-03-28 06:01:57,385 [INFO] 
+[12/113] ETA: ~37 min remaining
+2026-03-28 06:01:57,385 [INFO] 
+============================================================
+  Processing: debian-bullseye
+============================================================
+2026-03-28 06:01:57,444 [INFO]   Building original: v3-debian-bullseye-orig

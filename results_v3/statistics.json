@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "timestamp": "2026-03-28T05:37:22.159895",
+    "script_version": "v3-standalone",
+    "trivy_version": "Version: 0.69.3",
+    "docker_version": "Docker version 29.3.1, build c2be9cc",
+    "total_results": 565,
+    "strategies": [
+      "scan-only",
+      "naive",
+      "copacetic",
+      "scout",
+      "autopatch"
+    ]
+  },
+  "strategy_statistics": {
+    "Scan-Only": {
+      "strategy": "Scan-Only",
+      "total": 113,
+      "success": 48,
+      "failures": 65,
+      "fail_rate": 57.5,
+      "vr_mean": 0.0,
+      "vr_median": 0.0,
+      "vr_std": 0.0,
+      "vr_min": 0.0,
+      "vr_max": 0.0,
+      "new_vulns": 0,
+      "accepted": 0,
+      "zero_after": 3
+    },
+    "Naive-Latest": {
+      "strategy": "Naive-Latest",
+      "total": 113,
+      "success": 46,
+      "failures": 67,
+      "fail_rate": 59.3,
+      "vr_mean": 9.96,
+      "vr_median": 56.18,
+      "vr_std": 247.86,
+      "vr_min": -1553.12,
+      "vr_max": 100.0,
+      "new_vulns": 2562,
+      "accepted": 0,
+      "zero_after": 2
+    },
+    "Copacetic": {
+      "strategy": "Copacetic",
+      "total": 113,
+      "success": 0,
+      "failures": 113,
+      "fail_rate": 100.0,
+      "vr_mean": 0,
+      "vr_median": 0,
+      "vr_std": 0,
+      "vr_min": 0,
+      "vr_max": 0,
+      "new_vulns": 0,
+      "accepted": 0,
+      "zero_after": 0
+    },
+    "Docker-Scout": {
+      "strategy": "Docker-Scout",
+      "total": 113,
+      "success": 0,
+      "failures": 113,
+      "fail_rate": 100.0,
+      "vr_mean": 0,
+      "vr_median": 0,
+      "vr_std": 0,
+      "vr_min": 0,
+      "vr_max": 0,
+      "new_vulns": 0,
+      "accepted": 0,
+      "zero_after": 0
+    },
+    "AutoPatch": {
+      "strategy": "AutoPatch",
+      "total": 113,
+      "success": 43,
+      "failures": 70,
+      "fail_rate": 61.9,
+      "vr_mean": 59.94,
+      "vr_median": 83.18,
+      "vr_std": 47.69,
+      "vr_min": -86.27,
+      "vr_max": 100.0,
+      "new_vulns": 1682,
+      "accepted": 7,
+      "zero_after": 8
+    }
+  },
+  "pairwise_comparisons": {
+    "Naive-Latest": {
+      "baseline": "Naive-Latest",
+      "paired": 38,
+      "cohen_d": 0.294,
+      "wilcoxon": 160.0,
+      "p_value": 0.135887,
+      "sig_005": 

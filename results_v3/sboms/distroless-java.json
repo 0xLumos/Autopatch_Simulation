@@ -1,0 +1,1679 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:62f7d780-9c22-4524-8618-f0b01340cc93",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-28T06:24:44+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.69.3"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "pkg:oci/v3-distroless-java-orig@sha256%3A8376ff354bfa5f91ee71df8775daf1cd07aa0d3bc689c323c26a1ec472dfdee9?arch=amd64&repository_url=index.docker.io%2Flibrary%2Fv3-distroless-java-orig",
+      "type": "container",
+      "name": "v3-distroless-java-orig",
+      "purl": "pkg:oci/v3-distroless-java-orig@sha256%3A8376ff354bfa5f91ee71df8775daf1cd07aa0d3bc689c323c26a1ec472dfdee9?arch=amd64&repository_url=index.docker.io%2Flibrary%2Fv3-distroless-java-orig",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:1a0d1a4fab1266d1f2e5c9f117c5fcc30dbe67b546edfd20ce772fc3553b504f"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:1a73b54f556b477f0a8b939d13c504a3b4f4db71f7a09c63afbc10acb3de5849"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:1cd410d2ab5d4a2b12eaebc72ae4d1636de6197cea7fe9dd1971c394e3444126"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:1ecef13ea34e3f5f32a49ce363a2c39f257e4d8b5254bac7caaf2391fa4564b9"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:2388d21e8e2b74e055216652e6af384768e97513ad568e10c27bacec389b7f0a"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:2a92d6ac9e4fcc274d5168b217ca4458a9fec6f094ead68d99c77073f08caac1"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:322ea88abbe345169c6fac40eb2ebf66d343750d3bb5babc214bf85da9ec1b3b"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:4d049f83d9cf21d1f5cc0e11deaf36df02790d0e60c1a3829538fb4b61685368"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:5342a2647e8784b3afdeb9b148d5fe1e7e1089ed3650204077765c78b3b0f93c"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:53f9cc6badf886b657191e5dfc0195b3e051e6478197fe8bca1ef8e41d1e110e"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:577c8ee06f39e2bc276615f1058fa40081255ce5e2f072df4875e27868de5660"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:6b44a226eb88dcf7ee0832654e259e0bedf59361b3969e0dfc6ef9abe6fc2c4a"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:6ea409d80cd8739aafc605980060ea5055493aecad34ab5ff02eec6f9bc9b5d8"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:72291a6155830b337495c0bc3913d277c2e3642ffca8be55a95f34393512502e"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:837bddaeadac9f9bded1bdc3d8b840f83f0fb392bca7e89909e67b94fd9f79d4"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:8451c71f8c1e6674db22f6f55f1360dab6bf5afb43a76e95813fad65566a33fc"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:9b019dad73288bae3ae4225fb7bf6c0cb8516428703d32f4e09beb54b4a64b5b"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:9b283c791d23024cf105bbab4b82fe40d05b9034bb31cd8a36622954893a4d9a"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:9ed498e122b248a801130d052c25418381ee7bf215cdf7990965bae0dc37dcc2"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:aa8f45b20bfde4449e6e25f760798c87a5d03962afdddb9308b393d0bc7af454"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:ab0d1f5f900176eefa75c607c8108948915d28d37b48484bdcf47d615d0e8a55"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:ac805962e47900b616b2f4b4584a34ac7b07d64ac1fd2c077478cf65311addcc"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:af5aa97ebe6ce1604747ec1e21af7136ded391bcabe4acef882e718a87c86bcc"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:b09856e94e627973d22c9eb89a8b63801917a2c093247a6c8072e0ae6ae4387b"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:bbb6cacb8c82e4da4e8143e03351e939eab5e21ce0ef333c42e637af86c5217b"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:c048279a7d9f8e94b4c022b699ad8e8a0cb08b717b014ce4af15afaf375a6ac2"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:d1ece50b5b71ee0c21ae27233aafab23b748cca42a36ef450968e9bc574ce926"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:d49df435a968aba28f5ca637369a2e85867bfcee80499cda728bec039c3bfa3d"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:e0f451effe734628e92629709d0eee94dc2c10d4ffcba6b4c7164b766542b24e"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:ea040a80e2e938a01c2532281c65ca54eed2c0fad83b91d62b36fa0c4cdc8b03"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:ea9844823760dee4149e3633c86e5114ffb986f1103c774ac9e155e095cb13f5"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:ec2dc406003038dda975d99d2b5362067ab5083957277c53001c5e6d91b58c61"
+        },
+        {
+          "name": "aquasecurity:trivy:DiffID",
+          "value": "sha256:f3aaf0cdb0a805f36309b6561c55bca8c99ee4462c525c1cbfb98d7a4b019306"
+        },
+        {
+          "name": "aquasecurity:trivy:ImageID",
+          "value": "sha256:8376ff354bfa5f91ee71df8775daf1cd07aa0d3bc689c323c26a1ec472dfdee9"
+        },
+        {
+          "name": "aquasecurity:trivy:Reference",
+          "value": "v3-distroless-java-orig:latest"
+        },
+        {
+          "name": "aquasecurity:trivy:RepoDigest",
+          "value": "v3-distroless-java-orig@sha256:8376ff354bfa5f91ee71df8775daf1cd07aa0d3bc689c323c26a1ec472dfdee9"
+        },
+        {
+          "name": "aquasecurity:trivy:RepoTag",
+          "value": "v3-distroless-java-orig:latest"
+        },
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        },
+        {
+          "name": "aquasecurity:trivy:Size",
+          "value": "228348416"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "7e9f7ab6-9c63-44f1-b54e-b6c7a05f6f75",
+      "type": "operating-system",
+      "name": "debian",
+      "version": "11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "os-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "debian"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/base-files@11.1%2Bdeb11u10?arch=amd64&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "Santiago Vila <sanvila@debian.org>"
+      },
+      "name": "base-files",
+      "version": "11.1+deb11u10",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/base-files@11.1%2Bdeb11u10?arch=amd64&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:5342a2647e8784b3afdeb9b148d5fe1e7e1089ed3650204077765c78b3b0f93c"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:1c56d6035a42c0a75d79cc88acf6c9d4104343639f19b8262b520c449731445d"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "base-files@11.1+deb11u10"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "base-files"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "11.1+deb11u10"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/fontconfig-config@2.13.1-4.2?arch=all&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>"
+      },
+      "name": "fontconfig-config",
+      "version": "2.13.1-4.2",
+      "purl": "pkg:deb/debian/fontconfig-config@2.13.1-4.2?arch=all&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:e0f451effe734628e92629709d0eee94dc2c10d4ffcba6b4c7164b766542b24e"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:e82b4dabace2f830ed007301da1db9651e02f06d0cfb8723795d50314bf99fc7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "fontconfig-config@2.13.1-4.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "fontconfig"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "4.2"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.13.1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/fonts-dejavu-core@2.37-2?arch=all&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "Debian Fonts Task Force <debian-fonts@lists.debian.org>"
+      },
+      "name": "fonts-dejavu-core",
+      "version": "2.37-2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Bitstream-Vera"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/fonts-dejavu-core@2.37-2?arch=all&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:1cd410d2ab5d4a2b12eaebc72ae4d1636de6197cea7fe9dd1971c394e3444126"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:8280bf2e588b77a48bf0ec93d474cb3059be9cc0a8f408b11772ea77cc1c9b5b"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "fonts-dejavu-core@2.37-2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "fonts-dejavu"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "2"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.37"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libbrotli1@1.0.9-2%2Bb2?arch=amd64&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "Tomasz Buchert <tomasz@debian.org>"
+      },
+      "name": "libbrotli1",
+      "version": "1.0.9-2+b2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/libbrotli1@1.0.9-2%2Bb2?arch=amd64&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:1ecef13ea34e3f5f32a49ce363a2c39f257e4d8b5254bac7caaf2391fa4564b9"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:30a214a598f1a20cbda05e383608be59a0d8ab6e1f4b98806f939d4c694ed3b7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libbrotli1@1.0.9-2+b2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "brotli"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "2"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "1.0.9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libc6@2.31-13%2Bdeb11u10?arch=amd64&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "GNU Libc Maintainers <debian-glibc@lists.debian.org>"
+      },
+      "name": "libc6",
+      "version": "2.31-13+deb11u10",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/libc6@2.31-13%2Bdeb11u10?arch=amd64&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:8451c71f8c1e6674db22f6f55f1360dab6bf5afb43a76e95813fad65566a33fc"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:83f8d4690e1f293d0438aef7d1075e590ce77fdec97bb4d90b1d227aeba343fd"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libc6@2.31-13+deb11u10"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "glibc"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "13+deb11u10"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.31"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libcrypt1@4.4.18-4?arch=amd64&distro=debian-11.10&epoch=1",
+      "type": "library",
+      "supplier": {
+        "name": "Marco d'Itri <md@linux.it>"
+      },
+      "name": "libcrypt1",
+      "version": "1:4.4.18-4",
+      "purl": "pkg:deb/debian/libcrypt1@4.4.18-4?arch=amd64&distro=debian-11.10&epoch=1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:1a0d1a4fab1266d1f2e5c9f117c5fcc30dbe67b546edfd20ce772fc3553b504f"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:db0e7ae97d20d73a7dc92dfa4c7b4a9b8f374874efa6ab28948d8bb625233e88"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libcrypt1@1:4.4.18-4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcEpoch",
+          "value": "1"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "libxcrypt"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "4"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "4.4.18"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libexpat1@2.2.10-2%2Bdeb11u5?arch=amd64&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "Laszlo Boszormenyi (GCS) <gcs@debian.org>"
+      },
+      "name": "libexpat1",
+      "version": "2.2.10-2+deb11u5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/libexpat1@2.2.10-2%2Bdeb11u5?arch=amd64&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:d49df435a968aba28f5ca637369a2e85867bfcee80499cda728bec039c3bfa3d"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:2200e590120dc2f212e308a7c08a081d6f8c4b1cc27764e248d5795958f66ccd"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libexpat1@2.2.10-2+deb11u5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "expat"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "2+deb11u5"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.2.10"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libfontconfig1@2.13.1-4.2?arch=amd64&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>"
+      },
+      "name": "libfontconfig1",
+      "version": "2.13.1-4.2",
+      "purl": "pkg:deb/debian/libfontconfig1@2.13.1-4.2?arch=amd64&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:ab0d1f5f900176eefa75c607c8108948915d28d37b48484bdcf47d615d0e8a55"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:d05c696edb2c1f4199a56cadec32cff614c864218950fce90043560a44380448"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libfontconfig1@2.13.1-4.2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "fontconfig"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "4.2"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.13.1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libfreetype6@2.10.4%2Bdfsg-1%2Bdeb11u1?arch=amd64&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "Hugh McMaster <hugh.mcmaster@outlook.com>"
+      },
+      "name": "libfreetype6",
+      "version": "2.10.4+dfsg-1+deb11u1",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "FTL"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "FSFULLR"
+          }
+        },
+        {
+          "license": {
+            "id": "FSFAP"
+          }
+        },
+        {
+          "license": {
+            "name": "Permissive"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "FSFUL"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "OFL-1.1"
+          }
+        },
+        {
+          "license": {
+            "name": "Public-Domain"
+          }
+        },
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        },
+        {
+          "license": {
+            "name": "OpenGroup-BSD-like"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/libfreetype6@2.10.4%2Bdfsg-1%2Bdeb11u1?arch=amd64&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:53f9cc6badf886b657191e5dfc0195b3e051e6478197fe8bca1ef8e41d1e110e"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:3e3028489bac0cf5de4b06722ae240d463da5f67615095945e8bb235a9425fc5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libfreetype6@2.10.4+dfsg-1+deb11u1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "freetype"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "1+deb11u1"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.10.4+dfsg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libgcc-s1@10.2.1-6?arch=amd64&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+      },
+      "name": "libgcc-s1",
+      "version": "10.2.1-6",
+      "purl": "pkg:deb/debian/libgcc-s1@10.2.1-6?arch=amd64&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:f3aaf0cdb0a805f36309b6561c55bca8c99ee4462c525c1cbfb98d7a4b019306"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:88934a1bc18c35762f0009512e7a775aec9e1d9531a1781a0caf81013a67ab94"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libgcc-s1@10.2.1-6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "gcc-10"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "6"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "10.2.1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libglib2.0-0@2.66.8-1%2Bdeb11u4?arch=amd64&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>"
+      },
+      "name": "libglib2.0-0",
+      "version": "2.66.8-1+deb11u4",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/libglib2.0-0@2.66.8-1%2Bdeb11u4?arch=amd64&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:6b44a226eb88dcf7ee0832654e259e0bedf59361b3969e0dfc6ef9abe6fc2c4a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:e01d0901f9b5f40553cbaea86175b0b89abc72c6fae1d23f45574d8bb7ce5d29"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libglib2.0-0@2.66.8-1+deb11u4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "glib2.0"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "1+deb11u4"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.66.8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libgraphite2-3@1.3.14-1?arch=amd64&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>"
+      },
+      "name": "libgraphite2-3",
+      "version": "1.3.14-1",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "MPL-1.1"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "name": "public-domain"
+          }
+        },
+        {
+          "license": {
+            "id": "Artistic-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "name": "custom-sil-open-font-license"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/libgraphite2-3@1.3.14-1?arch=amd64&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:ea040a80e2e938a01c2532281c65ca54eed2c0fad83b91d62b36fa0c4cdc8b03"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:9c025834a62cad9f3cc50f81cb83f1d57fec7d9b08303e1c5587454737d0ff86"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libgraphite2-3@1.3.14-1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "graphite2"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "1"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "1.3.14"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libharfbuzz0b@2.7.4-1?arch=amd64&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@users.sourceforge.net>"
+      },
+      "name": "libharfbuzz0b",
+      "version": "2.7.4-1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/libharfbuzz0b@2.7.4-1?arch=amd64&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:837bddaeadac9f9bded1bdc3d8b840f83f0fb392bca7e89909e67b94fd9f79d4"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:e3cdc7e86d9f09897bce79cdcddbf4b7869b827e12cb3c72265201886a982b40"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libharfbuzz0b@2.7.4-1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "harfbuzz"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "1"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.7.4"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libjpeg62-turbo@2.0.6-4?arch=amd64&distro=debian-11.10&epoch=1",
+      "type": "library",
+      "supplier": {
+        "name": "Ondřej Surý <ondrej@debian.org>"
+      },
+      "name": "libjpeg62-turbo",
+      "version": "1:2.0.6-4",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-BY-LC-NE"
+          }
+        },
+        {
+          "license": {
+            "id": "NTP"
+          }
+        },
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/libjpeg62-turbo@2.0.6-4?arch=amd64&distro=debian-11.10&epoch=1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:322ea88abbe345169c6fac40eb2ebf66d343750d3bb5babc214bf85da9ec1b3b"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:ba101a49754a77baaaa44642e4e2f77c5ab58723a33148c63e86306a097e62d5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libjpeg62-turbo@1:2.0.6-4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcEpoch",
+          "value": "1"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "libjpeg-turbo"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "4"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.0.6"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/liblcms2-2@2.12~rc1-2?arch=amd64&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "Thomas Weber <tweber@debian.org>"
+      },
+      "name": "liblcms2-2",
+      "version": "2.12~rc1-2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/liblcms2-2@2.12~rc1-2?arch=amd64&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:ea9844823760dee4149e3633c86e5114ffb986f1103c774ac9e155e095cb13f5"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:1bf91b0558a3485323359337cee78af91d8bda0a00ba09957916a104236072be"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "liblcms2-2@2.12~rc1-2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "lcms2"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "2"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.12~rc1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libpcre3@8.39-13?arch=amd64&distro=debian-11.10&epoch=2",
+      "type": "library",
+      "supplier": {
+        "name": "Matthew Vernon <matthew@debian.org>"
+      },
+      "name": "libpcre3",
+      "version": "2:8.39-13",
+      "purl": "pkg:deb/debian/libpcre3@8.39-13?arch=amd64&distro=debian-11.10&epoch=2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:9b019dad73288bae3ae4225fb7bf6c0cb8516428703d32f4e09beb54b4a64b5b"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:5cbbd8a9c438f5b7c926ee83d30813b3217350c713784f188f326b8dec6754f0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libpcre3@2:8.39-13"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcEpoch",
+          "value": "2"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "pcre3"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "13"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "8.39"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libpng16-16@1.6.37-3?arch=amd64&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "Maintainers of libpng1.6 packages <libpng1.6@packages.debian.org>"
+      },
+      "name": "libpng16-16",
+      "version": "1.6.37-3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Libpng"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "name": "BSD-3-Clause WITH advertising-clause"
+          }
+        },
+        {
+          "license": {
+            "name": "Libpng OR Apache-2.0 OR BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/libpng16-16@1.6.37-3?arch=amd64&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:aa8f45b20bfde4449e6e25f760798c87a5d03962afdddb9308b393d0bc7af454"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:76de2a54b200cbea8b5ae707f9d237f4878d63ad5b3c2b054f94e3aede2a2b76"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libpng16-16@1.6.37-3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "libpng1.6"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "3"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "1.6.37"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libstdc%2B%2B6@10.2.1-6?arch=amd64&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "Debian GCC Maintainers <debian-gcc@lists.debian.org>"
+      },
+      "name": "libstdc++6",
+      "version": "10.2.1-6",
+      "purl": "pkg:deb/debian/libstdc%2B%2B6@10.2.1-6?arch=amd64&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:6ea409d80cd8739aafc605980060ea5055493aecad34ab5ff02eec6f9bc9b5d8"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:7f3501c931c2f262add9c59a46b7469c09f862cfcdb005d9187bc4f8f9964724"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libstdc++6@10.2.1-6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "gcc-10"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "6"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "10.2.1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libuuid1@2.36.1-8%2Bdeb11u2?arch=amd64&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "util-linux packagers <util-linux@packages.debian.org>"
+      },
+      "name": "libuuid1",
+      "version": "2.36.1-8+deb11u2",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "name": "public-domain"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-4-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-3.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/libuuid1@2.36.1-8%2Bdeb11u2?arch=amd64&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:9b283c791d23024cf105bbab4b82fe40d05b9034bb31cd8a36622954893a4d9a"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:a2ed3634dacb3d1be86717aa3ebda968780f1d17151b408f2c41e0ed2a32541a"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "libuuid1@2.36.1-8+deb11u2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "util-linux"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "8+deb11u2"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2.36.1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/netbase@6.3?arch=all&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "Marco d'Itri <md@linux.it>"
+      },
+      "name": "netbase",
+      "version": "6.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/netbase@6.3?arch=all&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:577c8ee06f39e2bc276615f1058fa40081255ce5e2f072df4875e27868de5660"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:e33bce57de289fffd2380f73997dfb7e1ec193877904bed99f28c715d071fdc4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "netbase@6.3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "netbase"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "6.3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/openjdk-17-jre-headless@17.0.12%2B7-2~deb11u1?arch=amd64&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "OpenJDK Team <openjdk-17@packages.debian.org>"
+      },
+      "name": "openjdk-17-jre-headless",
+      "version": "17.0.12+7-2~deb11u1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later WITH Classpath-exception"
+          }
+        },
+        {
+          "license": {
+            "name": "BSD-C3"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/openjdk-17-jre-headless@17.0.12%2B7-2~deb11u1?arch=amd64&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:ec2dc406003038dda975d99d2b5362067ab5083957277c53001c5e6d91b58c61"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:8561f6eb95152ceeb675f4a76668b7328ad34b4313c157fe239a1ffc33022b34"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "openjdk-17-jre-headless@17.0.12+7-2~deb11u1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "openjdk-17"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "2~deb11u1"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "17.0.12+7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/tzdata@2024a-0%2Bdeb11u1?arch=all&distro=debian-11.10",
+      "type": "library",
+      "supplier": {
+        "name": "GNU Libc Maintainers <debian-glibc@lists.debian.org>"
+      },
+      "name": "tzdata",
+      "version": "2024a-0+deb11u1",
+      "purl": "pkg:deb/debian/tzdata@2024a-0%2Bdeb11u1?arch=all&distro=debian-11.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:9ed498e122b248a801130d052c25418381ee7bf215cdf7990965bae0dc37dcc2"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:473d8557b1b27974f7dc7c4b4e1a209df0e27e8cae1e3e33b7bb45c969b6fc7e"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "tzdata@2024a-0+deb11u1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "tzdata"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "0+deb11u1"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "2024a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/zlib1g@1.2.11.dfsg-2%2Bdeb11u2?arch=amd64&distro=debian-11.10&epoch=1",
+      "type": "library",
+      "supplier": {
+        "name": "Mark Brown <broonie@debian.org>"
+      },
+      "name": "zlib1g",
+      "version": "1:1.2.11.dfsg-2+deb11u2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ],
+      "purl": "pkg:deb/debian/zlib1g@1.2.11.dfsg-2%2Bdeb11u2?arch=amd64&distro=debian-11.10&epoch=1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:LayerDiffID",
+          "value": "sha256:b09856e94e627973d22c9eb89a8b63801917a2c093247a6c8072e0ae6ae4387b"
+        },
+        {
+          "name": "aquasecurity:trivy:LayerDigest",
+          "value": "sha256:2ab3301941bed6a8688f0946c28177af4c70e5fafadb4ccd1d12bddb752defdd"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "zlib1g@1:1.2.11.dfsg-2+deb11u2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "debian"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcEpoch",
+          "value": "1"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcName",
+          "value": "zlib"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcRelease",
+          "value": "2+deb11u2"
+        },
+        {
+          "name": "aquasecurity:trivy:SrcVersion",
+          "value": "1.2.11.dfsg"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "7e9f7ab6-9c63-44f1-b54e-b6c7a05f6f75",
+      "dependsOn": [
+        "pkg:deb/debian/base-files@11.1%2Bdeb11u10?arch=amd64&distro=debian-11.10",
+        "pkg:deb/debian/fontconfig-config@2.13.1-4.2?arch=all&distro=debian-11.10",
+        "pkg:deb/debian/fonts-dejavu-core@2.37-2?arch=all&distro=debian-11.10",
+        "pkg:deb/debian/libbrotli1@1.0.9-2%2Bb2?arch=amd64&distro=debian-11.10",
+        "pkg:deb/debian/libc6@2.31-13%2Bdeb11u10?arch=amd64&distro=debian-11.10",
+        "pkg:deb/debian/libcrypt1@4.4.18-4?arch=amd64&distro=debian-11.10&epoch=1",
+        "pkg:deb/debian/libexpat1@2.2.10-2%2Bdeb11u5?arch=amd64&distro=debian-11.10",
+        "pkg:deb/debian/libfontconfig1@2.13.1-4.2?arch=amd64&distro=debian-11.10",
+        "pkg:deb/debian/libfreetype6@2.10.4%2Bdfsg-1%2Bdeb11u1?arch=amd64&distro=debian-11.10",
+        "pkg:deb/debian/libgcc-s1@10.2.1-6?arch=amd64&distro=debian-11.10",
+        "pkg:deb/debian/libglib2.0-0@2.66.8-1%2Bdeb11u4?arch=amd64&distro=debian-11.10",
+        "pkg:deb/debian/libgraphite2-3@1.3.14-1?arch=amd64&distro=debian-11.10",
+        "pkg:deb/debian/libharfbuzz0b@2.7.4-1?arch=amd64&distro=debian-11.10",
+        "pkg:deb/debian/libjpeg62-turbo@2.0.6-4?arch=amd64&distro=debian-11.10&epoch=1",
+        "pkg:deb/debian/liblcms2-2@2.12~rc1-2?arch=amd64&distro=debian-11.10",
+        "pkg:deb/debian/libpcre3@8.39-13?arch=amd64&distro=debian-11.10&epoch=2",
+        "pkg:deb/debian/libpng16-16@1.6.37-3?arch=amd64&distro=debian-11.10",
+        "pkg:deb/debian/libstdc%2B%2B6@10.2.1-6?arch=amd64&distro=debian-11.10",
+        "pkg:deb/debian/libuuid1@2.36.1-8%2Bdeb11u2?arch=amd64&distro=debian-11.10",
+        "pkg:deb/debian/netbase@6.3?arch=all&distro=debian-11.10",
+        "pkg:deb/debian/openjdk-17-jre-headless@17.0.12%2B7-2~deb11u1?arch=amd64&distro=debian-11.10",
+        "pkg:deb/debian/tzdata@2024a-0%2Bdeb11u1?arch=all&distro=debian-11.10",
+        "pkg:deb/debian/zlib1g@1.2.11.dfsg-2%2Bdeb11u2?arch=amd64&distro=debian-11.10&epoch=1"
+      ]
+    },
+    {
+      "ref": "pkg:deb/debian/base-files@11.1%2Bdeb11u10?arch=amd64&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/fontconfig-config@2.13.1-4.2?arch=all&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/fonts-dejavu-core@2.37-2?arch=all&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/libbrotli1@1.0.9-2%2Bb2?arch=amd64&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/libc6@2.31-13%2Bdeb11u10?arch=amd64&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/libcrypt1@4.4.18-4?arch=amd64&distro=debian-11.10&epoch=1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/libexpat1@2.2.10-2%2Bdeb11u5?arch=amd64&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/libfontconfig1@2.13.1-4.2?arch=amd64&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/libfreetype6@2.10.4%2Bdfsg-1%2Bdeb11u1?arch=amd64&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/libgcc-s1@10.2.1-6?arch=amd64&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/libglib2.0-0@2.66.8-1%2Bdeb11u4?arch=amd64&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/libgraphite2-3@1.3.14-1?arch=amd64&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/libharfbuzz0b@2.7.4-1?arch=amd64&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/libjpeg62-turbo@2.0.6-4?arch=amd64&distro=debian-11.10&epoch=1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/liblcms2-2@2.12~rc1-2?arch=amd64&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/libpcre3@8.39-13?arch=amd64&distro=debian-11.10&epoch=2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/libpng16-16@1.6.37-3?arch=amd64&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/libstdc%2B%2B6@10.2.1-6?arch=amd64&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/libuuid1@2.36.1-8%2Bdeb11u2?arch=amd64&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/netbase@6.3?arch=all&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/openjdk-17-jre-headless@17.0.12%2B7-2~deb11u1?arch=amd64&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/tzdata@2024a-0%2Bdeb11u1?arch=all&distro=debian-11.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:deb/debian/zlib1g@1.2.11.dfsg-2%2Bdeb11u2?arch=amd64&distro=debian-11.10&epoch=1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:oci/v3-distroless-java-orig@sha256%3A8376ff354bfa5f91ee71df8775daf1cd07aa0d3bc689c323c26a1ec472dfdee9?arch=amd64&repository_url=index.docker.io%2Flibrary%2Fv3-distroless-java-orig",
+      "dependsOn": [
+        "7e9f7ab6-9c63-44f1-b54e-b6c7a05f6f75"
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}
